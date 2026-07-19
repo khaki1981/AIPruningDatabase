@@ -1,0 +1,265 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/khaki1981/AIPruningDatabase/schema/plant.schema.json",
+  "title": "AIPruningDatabase plant data",
+  "description": "剪定アプリで使用する植物データの初期Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "nameJa",
+    "classification",
+    "pruning",
+    "sources",
+    "reviewStatus"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "groupId": {
+      "type": "string"
+    },
+    "nameJa": {
+      "type": "string"
+    },
+    "scientificName": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "classification": {
+      "$ref": "#/definitions/classification"
+    },
+    "basicData": {
+      "$ref": "#/definitions/basicData"
+    },
+    "calendar": {
+      "$ref": "#/definitions/calendar"
+    },
+    "pruning": {
+      "$ref": "#/definitions/pruning"
+    },
+    "diagrams": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/diagram"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/sourceReference"
+      }
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "verified"]
+    },
+    "updatedAt": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "const": ""
+        }
+      ]
+    }
+  },
+  "definitions": {
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "type": "string"
+        },
+        "familyJa": {
+          "type": "string"
+        },
+        "familyScientific": {
+          "type": "string"
+        },
+        "genusJa": {
+          "type": "string"
+        },
+        "genusScientific": {
+          "type": "string"
+        },
+        "cultivar": {
+          "type": "string"
+        }
+      }
+    },
+    "basicData": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "growthHabit": {
+          "type": "string"
+        },
+        "height": {
+          "type": "string"
+        },
+        "spread": {
+          "type": "string"
+        },
+        "deciduousEvergreen": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "monthArray": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 12
+      },
+      "uniqueItems": true
+    },
+    "calendar": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "floweringMonths": {
+          "$ref": "#/definitions/monthArray"
+        },
+        "pruningMonths": {
+          "$ref": "#/definitions/monthArray"
+        },
+        "flowerBudFormationMonths": {
+          "$ref": "#/definitions/monthArray"
+        },
+        "harvestMonths": {
+          "$ref": "#/definitions/monthArray"
+        },
+        "plantingMonths": {
+          "$ref": "#/definitions/monthArray"
+        }
+      }
+    },
+    "pruningMethod": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "conditions": {
+          "type": "string"
+        },
+        "diagramId": {
+          "type": "string"
+        }
+      }
+    },
+    "pruning": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "timing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "methods": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "$ref": "#/definitions/pruningMethod"
+              }
+            ]
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "flowerBudType": {
+          "type": "string",
+          "enum": ["old-wood", "new-wood", "mixed", "unknown"]
+        },
+        "difficulty": {
+          "type": "string"
+        }
+      }
+    },
+    "diagram": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "page", "extractionType"],
+      "properties": {
+        "sourceId": {
+          "type": "string"
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "integer",
+              "minimum": 1
+            }
+          ]
+        },
+        "extractionType": {
+          "type": "string",
+          "enum": ["body", "table", "calendar", "diagram", "memo", "combined"]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

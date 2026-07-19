@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "",
+  "groupId": "",
+  "nameJa": "",
+  "scientificName": "",
+  "aliases": [],
+  "classification": {},
+  "basicData": {},
+  "calendar": {
+    "floweringMonths": [],
+    "pruningMonths": [],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "",
+    "timing": [],
+    "methods": [],
+    "warnings": [],
+    "flowerBudType": "unknown",
+    "difficulty": ""
+  },
+  "diagrams": [],
+  "sources": [],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
