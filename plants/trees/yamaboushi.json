@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "yamaboushi",
+  "groupId": "hanamizuki-yamaboushi",
+  "nameJa": "ヤマボウシ",
+  "scientificName": "",
+  "aliases": [
+    "山法師"
+  ],
+  "classification": {
+    "category": "春〜初夏の花木・高中木",
+    "familyJa": "ミズキ科",
+    "familyScientific": "",
+    "genusJa": "ミズキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "notes": [
+      "花（苞）は幅が狭く、先が尖っている。",
+      "ハナミズキよりも1か月以上遅く咲く。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [],
+    "pruningMonths": [
+      1,
+      2,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      8
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "ハナミズキと性質が似ており、剪定方法もほぼ共通する。花芽を残しながら、からみ枝などの不要枝や枯れ枝を枝元から切る。花芽は枝の先端についているため、枝の途中で切り戻すことは避ける。",
+    "timing": [
+      "強い剪定は樹液の流動がない冬場に行う。",
+      "翌年の花芽は8月ごろ、その年に伸びた枝の先端にできる。",
+      "11月を過ぎて落葉が始まると、花芽は丸みを帯びて葉芽と区別できるようになる。"
+    ],
+    "methods": [
+      {
+        "name": "芯止め",
+        "description": "芯を止める。",
+        "conditions": "樹高が10m近くにもなるため。",
+        "diagramId": ""
+      },
+      {
+        "name": "花芽を残す不要枝の剪定",
+        "description": "花芽を残しながら、からみ枝などの不要枝や枯れ枝を枝元から切る。枝の途中では切り戻さない。",
+        "conditions": "落葉後、花芽を葉芽と区別できる時期。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "水の吸い上げが盛んな春から夏にかけて剪定すると、切り口から樹液が吹き出し、枯れる原因となる。",
+      "花芽は枝の先端についているため、枝の途中で切り戻すことは避ける。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": ""
+  },
+  "diagrams": [],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 92,
+      "extractionType": "combined",
+      "note": "元画像：Hanamizuki_yamaboushi.jpg。本文と剪定カレンダーから抽出。ページ共通欄の基本データはヤマボウシへの個別適用を画像だけでは確定できないため登録していない。ハナミズキ専用の剪定図および交配品種のメモは一般的なヤマボウシの項目に含めていない。資料には花芽タイプ②とあるが、Schema上の花芽タイプとの対応を確認できないためunknownとした。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
