@@ -1,8 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/khaki1981/AIPruningDatabase/schema/plant.schema.json",
+  "$comment": "Schema version 1.1.0",
   "title": "AIPruningDatabase plant data",
-  "description": "剪定アプリで使用する植物データの初期Schema",
+  "description": "剪定アプリで使用する植物データのSchema v1.1.0",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -23,6 +24,13 @@
     },
     "groupId": {
       "type": "string"
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/relationship"
+      },
+      "uniqueItems": true
     },
     "nameJa": {
       "type": "string"
@@ -171,6 +179,9 @@
         },
         "diagramId": {
           "type": "string"
+        },
+        "appliesTo": {
+          "$ref": "#/definitions/appliesTo"
         }
       }
     },
@@ -230,6 +241,50 @@
         },
         "note": {
           "type": "string"
+        },
+        "appliesTo": {
+          "$ref": "#/definitions/appliesTo"
+        }
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "targetPlantId"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["grafted-on", "related-to"]
+        },
+        "targetPlantId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "appliesTo": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/applicationTarget"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "applicationTarget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["targetType", "targetId"],
+      "properties": {
+        "targetType": {
+          "type": "string",
+          "enum": ["plant"]
+        },
+        "targetId": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },

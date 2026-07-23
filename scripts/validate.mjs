@@ -34,6 +34,7 @@ addFormats(ajv);
 const validate = ajv.compile(schema);
 const jsonFiles = await findJsonFiles(plantsDirectory);
 let hasErrors = false;
+const parsedPlants = [];
 
 for (const filePath of jsonFiles) {
   const relativePath = path.relative(repositoryRoot, filePath);
@@ -47,12 +48,67 @@ for (const filePath of jsonFiles) {
       for (const error of validate.errors ?? []) {
         console.error(`  ${error.instancePath || "/"} ${error.message}`);
       }
+    } else {
+      parsedPlants.push({ filePath, plant });
     }
   } catch (error) {
     hasErrors = true;
     console.error(`\n${relativePath}`);
     console.error(`  ${error.message}`);
   }
+}
+
+const registeredPlantIds = new Set(
+  parsedPlants
+    .map(({ plant }) => plant.id)
+    .filter((id) => typeof id === "string" && id.length > 0),
+);
+const unresolvedReferences = [];
+
+function checkPlantReference(filePath, referencePath, targetId) {
+  if (!registeredPlantIds.has(targetId)) {
+    unresolvedReferences.push({ filePath, referencePath, targetId });
+  }
+}
+
+for (const { filePath, plant } of parsedPlants) {
+  for (const [index, relationship] of (plant.relationships ?? []).entries()) {
+    checkPlantReference(
+      filePath,
+      `/relationships/${index}/targetPlantId`,
+      relationship.targetPlantId,
+    );
+  }
+
+  for (const [methodIndex, method] of (plant.pruning?.methods ?? []).entries()) {
+    if (typeof method === "string") {
+      continue;
+    }
+
+    for (const [targetIndex, target] of (method.appliesTo ?? []).entries()) {
+      checkPlantReference(
+        filePath,
+        `/pruning/methods/${methodIndex}/appliesTo/${targetIndex}/targetId`,
+        target.targetId,
+      );
+    }
+  }
+
+  for (const [diagramIndex, diagram] of (plant.diagrams ?? []).entries()) {
+    for (const [targetIndex, target] of (diagram.appliesTo ?? []).entries()) {
+      checkPlantReference(
+        filePath,
+        `/diagrams/${diagramIndex}/appliesTo/${targetIndex}/targetId`,
+        target.targetId,
+      );
+    }
+  }
+}
+
+for (const { filePath, referencePath, targetId } of unresolvedReferences) {
+  console.warn(
+    `警告: ${path.relative(repositoryRoot, filePath)} ${referencePath} は未登録の植物ID "${targetId}" を参照しています。`,
+  );
 }
 
 if (hasErrors) {

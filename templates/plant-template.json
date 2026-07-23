@@ -1,7 +1,8 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "id": "",
   "groupId": "",
+  "relationships": [],
   "nameJa": "",
   "scientificName": "",
   "aliases": [],
@@ -17,12 +18,26 @@
   "pruning": {
     "summary": "",
     "timing": [],
-    "methods": [],
+    "methods": [
+      {
+        "name": "",
+        "description": "",
+        "conditions": "",
+        "diagramId": ""
+      }
+    ],
     "warnings": [],
     "flowerBudType": "unknown",
     "difficulty": ""
   },
-  "diagrams": [],
+  "diagrams": [
+    {
+      "id": "",
+      "path": "",
+      "type": "",
+      "note": ""
+    }
+  ],
   "sources": [],
   "reviewStatus": "draft",
   "updatedAt": ""
