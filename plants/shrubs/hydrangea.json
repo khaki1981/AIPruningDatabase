@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "hydrangea",
+  "groupId": "hydrangea",
+  "nameJa": "アジサイ",
+  "scientificName": "",
+  "aliases": [
+    "シチヘンゲ",
+    "七変化",
+    "紫陽花"
+  ],
+  "classification": {
+    "category": "夏の花木・低木",
+    "familyJa": "アジサイ科",
+    "familyScientific": "",
+    "genusJa": "アジサイ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：早い。日当たり：陽樹。乾湿：湿地を好む。大気汚染：やや強い。萌芽力：普通。栽培可能地域：ほぼ全国。花色（花柄）：赤、ピンク、紫、青、白。",
+    "height": "自然状態：1〜2m。庭植目安：0.8〜1.5m。",
+    "spread": "自然状態：1.5〜3m。庭植目安：1〜1.5m。",
+    "deciduousEvergreen": "",
+    "notes": [
+      "主な病害虫：ハダニ。",
+      "生長が速く、株の広がりに注意する。",
+      "土壌の成分で花色が変化する、梅雨の時期を代表する花木。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      6,
+      7
+    ],
+    "pruningMonths": [
+      2,
+      3,
+      7,
+      8
+    ],
+    "flowerBudFormationMonths": [
+      9,
+      10
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "花のついた枝は、そのままではその後に新芽が伸びず、翌年の花芽がつかないため、花の下の葉の2節目以下で剪定する。生長が早く株立ち状で横に広がるため、必要に応じて古枝を更新する。",
+    "timing": [
+      "剪定カレンダーでは、2月後半から3月および7〜8月が剪定適期として示されている。",
+      "花が終わらないうちに、花芽に注意しながら花のついている先端を切る方法がある。この場合は冬にもう一度、花芽の上で切る。",
+      "樹形が鬱蒼として極端に乱れる場合は、冬に長く伸びている古枝を地際で間引く。"
+    ],
+    "methods": [
+      {
+        "name": "花のついた枝の剪定",
+        "description": "花の下の葉の2節目以下で剪定する。",
+        "conditions": "花のついた枝を剪定するとき。",
+        "diagramId": "hydrangea-flower-bud-cut-position-reference"
+      },
+      {
+        "name": "花が終わる前の剪定",
+        "description": "花芽に注意しながら花のついている先端を切り、冬にもう一度、花芽の上で切る。切った花は切花として楽しめる。",
+        "conditions": "花が終わらないうちに先端を切る場合。",
+        "diagramId": "hydrangea-flower-bud-cut-position-reference"
+      },
+      {
+        "name": "古枝の更新",
+        "description": "冬に長く伸びている古枝を地際で切り、今年伸びた枝に更新する。一度に行わず、半分ずつ2年かけて行う。",
+        "conditions": "株が鬱蒼と茂り、樹形が極端に乱れた場合。",
+        "diagramId": "hydrangea-renewal-pruning-reference"
+      },
+      {
+        "name": "大きくなりすぎた株の剪定",
+        "description": "すべての枝を地際から切る。しばらく花は見られないが、数年で花を楽しめるようになる。",
+        "conditions": "株があまりに大きくなりすぎた場合。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "花芽より下で切ると、翌年の開花が見られない。",
+      "古枝の更新は一度に行わず、半分ずつ2年かけて行う。",
+      "すべての枝を地際から切ると、しばらくの間は花が見られない。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "難しい"
+  },
+  "diagrams": [
+    {
+      "id": "hydrangea-renewal-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "長く伸びている古枝を地際で切り、今年伸びた枝に更新する。更新は一度に行わず、半分ずつ2年かけて行う。"
+    },
+    {
+      "id": "hydrangea-flower-bud-cut-position-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "枝には葉芽と花芽が示され、花芽の上で切る。花芽より下で切ると翌年の開花が見られない。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 116,
+      "extractionType": "combined",
+      "note": "元画像：IMG_9079.jpg。本文、基本データ、剪定カレンダー、剪定図から抽出。資料には花芽タイプ③とあるが、この画像だけではSchema上の花芽タイプとの対応を確認できないためunknownとした。欄外のアメリカアジサイ『アナベル』に関する記述は別系統情報として扱い、一般的なアジサイの各データ項目には含めていない。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
