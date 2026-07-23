@@ -1,8 +1,20 @@
 {
   "id": "book-001",
   "type": "book",
-  "title": "イラスト もう迷わない 庭木の剪定 基本とコツ",
+  "title": "最新版 イラスト もう迷わない 庭木の剪定 基本とコツ",
   "author": "内田均",
-  "publisher": "家の光協会",
-  "notes": "植物データ作成時はページ番号と抽出元を記録する"
+  "supervisors": [
+    "内田均",
+    "川原田邦彦"
+  ],
+  "publisher": "一般社団法人 家の光協会",
+  "publicationDate": "2024-03-20",
+  "edition": "第1刷発行",
+  "publisherRepresentative": "木下春雄",
+  "isbn": "978-4-259-56794-1",
+  "classificationCode": "C0061",
+  "printerAndBinder": "図書印刷株式会社",
+  "copyright": "© IE-NO-HIKARI Association 2024",
+  "printingCountry": "Printed in Japan",
+  "notes": "植物データ作成時はページ番号と抽出元を記録する。書誌情報と監修者の役割は元画像Gaiyou.JPGから確認した。既存利用との後方互換性のためauthor項目は維持している。"
 }

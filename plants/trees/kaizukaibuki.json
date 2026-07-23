@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "kaizukaibuki",
+  "groupId": "kaizukaibuki",
+  "relationships": [],
+  "nameJa": "カイヅカイブキ",
+  "scientificName": "",
+  "aliases": [
+    "貝塚伊吹"
+  ],
+  "classification": {
+    "category": "針葉樹",
+    "familyJa": "ヒノキ科",
+    "familyScientific": "",
+    "genusJa": "イブキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：早い。日当たり：陽樹。乾湿：湿気を好む。大気汚染：強い。萌芽力：強い。",
+    "height": "自然状態：5〜8m。庭植目安：1.5〜4m。",
+    "spread": "自然状態：3〜7m。庭植目安：1〜2m。",
+    "deciduousEvergreen": "",
+    "notes": [
+      "枝が巻き上がるように生育し、ロウソクの炎のような円錐形になる。",
+      "主な病害虫：赤星病、ハダニ。",
+      "栽培可能地域：北海道南部〜沖縄。",
+      "資料記載の適用樹種：ミヤマビャクシン、ハイビャクシンなど。適用関係はappliesToへ登録していない。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [],
+    "pruningMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10,
+      11
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "樹冠の輪郭線から飛び出している徒長枝や、樹冠内でからみ合っている枝を根元から間引き、日当たりと風通しをよくする。新梢はなるべくハサミを使わず、指先で芽先を摘み取ると、やわらかくきれいに仕上がる。",
+    "timing": [
+      "剪定カレンダーでは1〜6月と10〜11月が剪定適期として示されている。",
+      "新梢の芽先は、こまめに指で摘み取る。"
+    ],
+    "methods": [
+      {
+        "name": "芽摘み",
+        "description": "樹冠の輪郭線から出ている新梢の芽先を指で摘み取ると、やわらかくきれいに仕上がる。",
+        "conditions": "新梢を整える場合。",
+        "diagramId": "kaizukaibuki-pruning-reference"
+      },
+      {
+        "name": "小透かし",
+        "description": "木バサミを斜めに入れ、上向きや内側に伸びている枝をつけ根で切る。切り口から新枝が伸びる。",
+        "conditions": "樹冠内部の枝を整理する場合。",
+        "diagramId": "kaizukaibuki-pruning-reference"
+      },
+      {
+        "name": "徒長枝の除去",
+        "description": "樹冠の輪郭線から飛び出している徒長枝は枝元から切る。",
+        "conditions": "徒長枝が樹冠から飛び出している場合。",
+        "diagramId": "kaizukaibuki-pruning-reference"
+      },
+      {
+        "name": "刈り込み",
+        "description": "こまめな手入れができない場合は、刈り込みバサミでイメージする輪郭に刈り込む。",
+        "conditions": "こまめな芽摘みができない場合。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "ハサミで昨年の枝を途中から切ると、スギ状の尖った葉が出て見苦しくなることがある。",
+      "刈り込むと一時的に葉先が茶色くなるが、資料では数週間で新芽が伸びて目立たなくなるとされている。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "kaizukaibuki-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "46ページの剪定図。不要に伸びた徒長枝は上向きの枝のつけ根で切り、小透かしでは切り口から新枝が伸びる。樹冠の輪郭線から出た新梢は指で摘み、徒長枝は枝元から切る。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 46,
+      "extractionType": "combined",
+      "note": "元画像：Kaizukaibuki.JPG。本文、基本データ、剪定カレンダー、ワンポイントアドバイス、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

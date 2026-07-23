@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "kororadotouhi",
+  "groupId": "kororadotouhi",
+  "relationships": [],
+  "nameJa": "コロラドトウヒ",
+  "scientificName": "",
+  "aliases": [
+    "プンゲンストウヒ",
+    "アメリカハリモミ"
+  ],
+  "classification": {
+    "category": "針葉樹",
+    "familyJa": "マツ科",
+    "familyScientific": "",
+    "genusJa": "トウヒ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：普通。日当たり：陽樹。乾湿：中庸。大気汚染：弱い。萌芽力：弱い。",
+    "height": "自然状態：8〜10m。庭植目安：4〜5m。",
+    "spread": "自然状態：4〜5m。庭植目安：2〜3m。",
+    "deciduousEvergreen": "",
+    "notes": [
+      "アメリカのコロラド州原産で、プンゲンストウヒとも呼ばれる。資料ではプンゲンスは「鋭くとがった」という意味と説明されている。",
+      "暑さには弱いが、都市でもよく育つ。特に銀青色系の葉が人気で、生長の遅い品種は手間があまりかからない。",
+      "主な病害虫：ハマキガ、マツカレハ。",
+      "栽培可能地域：北海道から日本中部。",
+      "園芸品種では、葉色が美しい代表品種としてホプシー、生長の遅い品種としてコスターが記載されている。",
+      "未処理参照：sourceId=book-001；参照ページ=23；目的=剪定方法；状態=未JSON化。",
+      "未処理参照：sourceId=book-001；参照ページ=50〜51；目的=剪定方法；状態=未JSON化。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [],
+    "pruningMonths": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "萌芽力が弱いため、新梢の途中では切らず、必ず枝のつけ根で切り戻す。樹高を抑えるために芯を切る場合も、枝葉のある所で幹と枝の分かれ目のすぐ上を切る。飛び出した枝や込んだ枝はつけ根から間引いて樹形を整える。",
+    "timing": [
+      "剪定カレンダーでは1〜3月が剪定適期として示されている。",
+      "5〜7月は軽めに剪定する。",
+      "9〜12月にも剪定表示があり、11月までは軽めに行う。"
+    ],
+    "methods": [
+      {
+        "name": "枝の切り戻し",
+        "description": "新梢の途中では切らず、枝のつけ根で切り戻す。",
+        "conditions": "枝を切り戻す場合。",
+        "diagramId": "kororadotouhi-pruning-reference"
+      },
+      {
+        "name": "芯止め",
+        "description": "高さを抑えるときは芯を止めるが、枝葉のある所で、幹と枝の分かれ目のすぐ上を切る。",
+        "conditions": "樹高を抑える場合。",
+        "diagramId": "kororadotouhi-pruning-reference"
+      },
+      {
+        "name": "不要枝の間引き",
+        "description": "飛び出した枝や込んだ枝をつけ根から間引き、樹形を整える。",
+        "conditions": "飛び出した枝や込んだ枝がある場合。",
+        "diagramId": "kororadotouhi-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "萌芽力が弱いため、新梢の途中で切らない。",
+      "芯を切る場合、幹と枝の分かれ目のすぐ上でないと、その後に出る新しい枝が立ち上がりにくく、美しい樹形にならない。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "kororadotouhi-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "49ページの剪定図。葉の途中では切らず、枝のつけ根で切り戻す。飛び出した枝や込んだ枝はつけ根から間引く。高さを抑えるときは芯を止めるが、なるべく元から切る。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 49,
+      "extractionType": "combined",
+      "note": "元画像：Kororadotouhi.JPG。本文、基本データ、剪定カレンダー、メモ、剪定図から抽出。23ページおよび50〜51ページの具体的な剪定方法は未JSON化。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "byakushin",
+  "groupId": "byakushin",
+  "relationships": [],
+  "nameJa": "ビャクシン",
+  "scientificName": "",
+  "aliases": [
+    "柏槇"
+  ],
+  "classification": {
+    "category": "針葉樹",
+    "familyJa": "ヒノキ科",
+    "familyScientific": "",
+    "genusJa": "ネズミサシ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：早い。日当たり：陽樹。乾湿：乾燥に耐える。大気汚染：強い。萌芽力：強い。",
+    "height": "自然状態：0.5〜1m。庭植目安：0.3〜0.6m。",
+    "spread": "自然状態：1〜2m。庭植目安：0.5〜1m。",
+    "deciduousEvergreen": "",
+    "notes": [
+      "ビャクシン類には立性と這性があり、このページでは這性のビャクシンを解説している。",
+      "這性でも伸びると先端が立ち上がり、ボリュームが出て、樹種によっては1mを超えることがある。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：品種によるが日本全国、または北海道南部以南。",
+      "未処理参照：sourceId=book-001；参照ページ=23；目的=剪定方法；状態=未JSON化。",
+      "未処理参照：sourceId=book-001；参照ページ=50〜51；目的=剪定方法；状態=未JSON化。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [],
+    "pruningMonths": [
+      1,
+      2,
+      12
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "剪定の基本は、今年伸びた枝のつけ根や、幹と枝の分かれ目で切り戻すこと。枝葉が多い場合や大きな株では、今年伸びた枝葉まで刈り込み、新芽の発生とともに切り口を隠す。古い枝からの萌芽力は弱いため、毎年こまめに手入れする。",
+    "timing": [
+      "剪定カレンダーでは12〜2月が剪定適期として示されている。",
+      "古い枝からの萌芽力が弱いため、毎年こまめに手入れする。"
+    ],
+    "methods": [
+      {
+        "name": "今年枝への切り戻し",
+        "description": "今年枝の葉の上で切り戻す。",
+        "conditions": "枝を切り戻す場合。",
+        "diagramId": "byakushin-pruning-reference"
+      },
+      {
+        "name": "枝葉の刈り込み",
+        "description": "枝葉が多い場合や大きな株では、今年伸びた枝葉まで刈り込み、新芽の発生とともに切り口を隠す。",
+        "conditions": "枝葉が多い場合、または大きな株になった場合。",
+        "diagramId": "byakushin-pruning-reference"
+      },
+      {
+        "name": "這性種の切り戻し",
+        "description": "地面を這うように育つ種類は、枝張りの幅だけ切り戻す。",
+        "conditions": "地面を這うように育つ種類。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "針葉樹は金物を嫌うとされ、葉をむやみに切ると先端が枯れて目立つ。",
+      "昨年枝で切ると枯れる。",
+      "こんもりと盛り上がるように伸びる種類は、下枝に光が当たらないと枯れ込むため、剪定を欠かさない。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "byakushin-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "48ページの剪定図。正しい剪定は今年枝の葉の上で切り戻す。誤った剪定として、昨年枝で切ると枯れることが示されている。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 48,
+      "extractionType": "combined",
+      "note": "元画像：Byakusin.JPG。本文、基本データ、剪定カレンダー、ワンポイントアドバイス、剪定図から抽出。23ページおよび50〜51ページの具体的な剪定方法は未JSON化。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
