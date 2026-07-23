@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "ginyouakashia",
+  "groupId": "ginyouakashia",
+  "nameJa": "ギンヨウアカシア",
+  "scientificName": "",
+  "aliases": [
+    "ミモザアカシア",
+    "ハナアカシア"
+  ],
+  "classification": {
+    "category": "春の花木・高中木",
+    "familyJa": "マメ科",
+    "familyScientific": "",
+    "genusJa": "アカシア属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：早い。日当たり：陽樹。乾湿：湿気を嫌う。大気汚染：強い。萌芽力：強い。栽培可能地域：関東以西太平洋側〜沖縄。花色：黄。",
+    "height": "自然状態：7〜15m。庭植目安：3〜5m。",
+    "spread": "自然状態：5〜8m。庭植目安：3〜4m。",
+    "deciduousEvergreen": "",
+    "notes": [
+      "主な病害虫：特になし。",
+      "銀青色の葉をもち、3〜4月に枝垂れた枝いっぱいに黄色い小花がつく。",
+      "風に弱く、強い風で枝が折れたり倒れたりすることがある。枝葉を適度に透かして風の通り道をつくる。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      3,
+      4
+    ],
+    "pruningMonths": [
+      5,
+      6,
+      7
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "剪定は花後から7月の半ばごろまでに行う。基本的に単幹に仕立て、生長が早いため希望の高さで芯を止める。成木になり木全体が太くなったら、徒長枝や込んでいる枝を整理して樹形を整える。",
+    "timing": [
+      "花後から7月の半ばごろまでに剪定する。",
+      "花芽ができる秋以降に剪定するときは、花芽を落とさないように注意する。"
+    ],
+    "methods": [
+      {
+        "name": "若木の側枝の剪定",
+        "description": "側枝を10〜20cmほどの長さで切り、新しい枝を出させる。上に行くにしたがって枝を短めに切る。1年後、切った部分から枝が数本伸びたら、短い枝を残して切る。",
+        "conditions": "若木のうち。",
+        "diagramId": "ginyouakashia-branch-pruning-reference"
+      },
+      {
+        "name": "芯止め",
+        "description": "希望の高さで芯を止める。",
+        "conditions": "生長が早いため高さを抑える必要がある場合。",
+        "diagramId": "ginyouakashia-branch-pruning-reference"
+      },
+      {
+        "name": "成木の枝整理",
+        "description": "徒長枝や込んでいる枝を整理して樹形を整える。木の内部まで光が届くように太い枝を間引き、先端は枝分かれした部分で小枝を残して長い枝を切る。",
+        "conditions": "成木になり、木全体が太くなった場合。",
+        "diagramId": "ginyouakashia-branch-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "花芽ができる秋以降に剪定するときは、花芽を落とさないように注意する。",
+      "風に弱いため、枝葉を適度に透かして風の通り道をつくる。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "ginyouakashia-flower-bud-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "新梢の葉腋に花芽ができ、翌年に花穂を伸ばして開花する。花は細くしなやかな枝につく。"
+    },
+    {
+      "id": "ginyouakashia-branch-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "立ち枝を切る。木の内部まで光が届くように太い枝を間引く。先端の枝は枝分かれした部分で小枝を残し、長い枝を切り取る。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 88,
+      "extractionType": "combined",
+      "note": "元画像：Ginyouakashia.JPG。本文、基本データ、剪定カレンダー、剪定図から抽出。資料には花芽タイプ①とあるが、この画像だけではSchema上の花芽タイプとの対応を確認できないためunknownとした。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
