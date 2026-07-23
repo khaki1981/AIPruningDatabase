@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "smoke-tree",
+  "groupId": "smoke-tree",
+  "nameJa": "スモークツリー",
+  "scientificName": "",
+  "aliases": [
+    "ケムリノキ",
+    "カスミノキ",
+    "ハグマノキ"
+  ],
+  "classification": {
+    "category": "初夏の花木・高中木",
+    "familyJa": "ウルシ科",
+    "familyScientific": "",
+    "genusJa": "ハグマノキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：早い。日当たり：陽樹。乾湿：やや乾燥を好む。大気汚染：やや強い。萌芽力：強い。栽培可能地域：本州南部の太平洋岸、および九州南部〜沖縄。花色（花柄）：白、ピンク、黄、赤。",
+    "height": "自然状態：3〜5m。庭植目安：2〜4m。",
+    "spread": "自然状態：3〜5m。庭植目安：1〜3m。",
+    "deciduousEvergreen": "",
+    "notes": [
+      "主な病害虫：特になし。",
+      "毎年5月ごろ、直径3mmほどの小さな薄緑色の花を穂状に多数咲かせる。",
+      "花後に花柄が長く伸びて羽毛のようになり、煙のように見える。雌雄異株で、このスモークが形成されるのは雌株だけ。",
+      "結実期（花柄）は剪定カレンダー上で6〜7月。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      5
+    ],
+    "pruningMonths": [
+      1,
+      2
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "生長が早く萌芽力があり、雑然とした木姿になりやすいため、毎年冬期に剪定する。枝分かれした部分で長く伸びた枝を切って新しい枝に更新し、勢いのない細い枝や込んだ枝を透かして通風と採光をよくする。",
+    "timing": [
+      "毎年、冬期に剪定する。",
+      "花を摘む場合は葉を残して切る。",
+      "大きくなりすぎた木は冬に切る。"
+    ],
+    "methods": [
+      {
+        "name": "冬期の枝更新",
+        "description": "枝分かれした部分で長く伸びた枝を切り、新しい枝に更新して株を若返らせる。",
+        "conditions": "毎年の冬期剪定。",
+        "diagramId": "smoke-tree-thinning-reference"
+      },
+      {
+        "name": "枝の透かし剪定",
+        "description": "勢いのない細い枝や込んだ枝を透かし、枝分かれの部分で不要な枝を取って通風と採光をよくする。",
+        "conditions": "枝が間延びして枝分かれし、木姿が雑然とした場合。",
+        "diagramId": "smoke-tree-thinning-reference"
+      },
+      {
+        "name": "花を摘む剪定",
+        "description": "花を摘む場合は、枝に葉を残して図のBの位置で切り取る。",
+        "conditions": "花を摘む場合。",
+        "diagramId": "smoke-tree-cut-position-reference"
+      },
+      {
+        "name": "大きくなりすぎた木の剪定",
+        "description": "冬に図のAの位置で切り取る。",
+        "conditions": "木が大きくなりすぎた場合。",
+        "diagramId": "smoke-tree-cut-position-reference"
+      }
+    ],
+    "warnings": [
+      "切り口から出る樹液は臭いがきつく、服につかないように注意する。",
+      "ウルシ科のため、かぶれるおそれがあり、手や服につかないように注意する。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "smoke-tree-thinning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "枝は間延びしてよく枝分かれするため、枝分かれの部分で不要な枝を取り、枝を透かして通風や採光をよくする。図では小透かしと大透かしの切断位置が示されている。"
+    },
+    {
+      "id": "smoke-tree-cut-position-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "花を摘む場合は枝に葉を残してBの位置で切る。大きくなりすぎた木は冬にAの位置で切る。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 93,
+      "extractionType": "combined",
+      "note": "元画像：Sumoukutsuri-.jpg。本文、基本データ、剪定カレンダー、剪定図から抽出。画像の植物名はスモークツリーだが、元ファイル名のローマ字表記は植物名と完全には一致しない。資料には花芽タイプ③とあるが、この画像だけではSchema上の花芽タイプとの対応を確認できないためunknownとした。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
