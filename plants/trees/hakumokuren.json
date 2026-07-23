@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "hakumokuren",
+  "groupId": "hakumokuren",
+  "relationships": [],
+  "nameJa": "ハクモクレン",
+  "scientificName": "Magnolia denudata",
+  "aliases": [
+    "白木蓮"
+  ],
+  "classification": {
+    "category": "落葉高木",
+    "familyJa": "モクレン科",
+    "familyScientific": "",
+    "genusJa": "モクレン属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "",
+    "height": "5〜8m。",
+    "deciduousEvergreen": "落葉",
+    "notes": [
+      "日照条件は日なた。",
+      "栽培可能域は東北以南。",
+      "主な観賞部位は花。",
+      "資料上の施肥時期は2月と5月。",
+      "春を告げる花木で、花つきがよく香りを楽しめる。",
+      "樹勢が強く病害虫がほとんどないため、街路樹にも利用される。",
+      "3〜4月に、根を切らないように植える。根づけば手間がかからないが、テッポウムシに注意する。",
+      "単幹で育てることが多い。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      3,
+      4
+    ],
+    "pruningMonths": [
+      5,
+      6,
+      7,
+      10,
+      11,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      5,
+      6
+    ],
+    "harvestMonths": [],
+    "plantingMonths": [
+      3,
+      4
+    ]
+  },
+  "pruning": {
+    "summary": "花芽と葉芽を見分け、花芽を残すことを優先しながら剪定する。剪定適期は花後の5〜7月と10〜12月で、徒長枝や不要枝を整理し、枝が広角化しすぎないように調整する。",
+    "timing": [
+      "5〜7月は、花芽分化が終わって花芽を確認できれば剪定しやすい。",
+      "10〜12月は、5〜7月に手入れをしてあれば不要枝の除去だけでよい。",
+      "花芽がついていて切れなかった忌み枝は、翌年、花が終わったら処理する。"
+    ],
+    "methods": [
+      {
+        "name": "5〜7月の徒長枝・不要枝の剪定",
+        "description": "花芽と葉芽を見分けながら、徒長枝や不要枝をつけ根から切除し、枝が広角化しすぎないように調整する。",
+        "conditions": "花芽分化が終わり、花芽を確認できる5〜7月。",
+        "diagramId": "hakumokuren-bud-identification-reference"
+      },
+      {
+        "name": "強い枝の切り戻し",
+        "description": "強い枝は、花芽を失っても脇枝へ切り戻す。",
+        "conditions": "強い枝を整理する場合。",
+        "diagramId": ""
+      },
+      {
+        "name": "実のかき取り",
+        "description": "木を疲れさせないため、実（タネ）を早めに取り除く。",
+        "conditions": "5月の剪定時など、実がついている場合。",
+        "diagramId": "hakumokuren-fruit-removal-reference"
+      },
+      {
+        "name": "新梢の切り戻し",
+        "description": "元気な新しい枝を途中では切らず、葉のところではなく、2〜3枚の葉がついている小さな脇枝のすぐ上で切り戻す。",
+        "conditions": "長く伸びた新梢を整理する場合。",
+        "diagramId": ""
+      },
+      {
+        "name": "小枝を減らす剪定",
+        "description": "木の中心に向かう内向枝から剪定する。枝先に花芽がある内向枝は花芽を残して周囲の葉をむしり取り、翌年の花後に処理する。",
+        "conditions": "小枝を減らす場合。",
+        "diagramId": "hakumokuren-small-branch-reduction-reference"
+      },
+      {
+        "name": "10〜12月の不要枝整理",
+        "description": "5〜7月に手入れ済みなら、不要枝だけを除去する。花芽のない無駄枝や越境枝はつけ根から切り取る。",
+        "conditions": "10〜12月の剪定。",
+        "diagramId": ""
+      },
+      {
+        "name": "秋から冬の葉の除去",
+        "description": "落葉後の掃除を楽にするため、剪定時に葉をもぎ落とす。10月は葉を半分ほど残し、11月以降は全部取ってもよい。",
+        "conditions": "10〜12月の剪定。",
+        "diagramId": ""
+      },
+      {
+        "name": "徒長枝の処理",
+        "description": "樹冠部分の徒長枝はつけ根で切り取るか、よい方向の芽まで切り戻す。数が多い場合は何本かをつけ根から取り除く。",
+        "conditions": "徒長枝を整理する場合。",
+        "diagramId": "hakumokuren-water-shoot-reference"
+      },
+      {
+        "name": "古い枝の剪定",
+        "description": "分岐を繰り返して幹の方向へ向かい、くねくねと曲がった古い枝は、外向きの枝が残るように剪定する。",
+        "conditions": "古い枝を整理する場合。",
+        "diagramId": "hakumokuren-old-branch-reference"
+      }
+    ],
+    "warnings": [
+      "細長い芽は葉芽、ふっくら丸い芽は花芽であり、剪定時は花芽を残すことを優先する。",
+      "徒長枝を中途半端に切ると芽が吹き、木が茂りやすい。",
+      "樹形を維持するため、花芽がある枝を残すことを承知で剪定せざるを得ない場合がある。",
+      "花芽のついた枝を秋から冬に切れない場合は、翌年の花後に処理する。",
+      "実（タネ）は木を疲れさせないため、早めに取り除く。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": ""
+  },
+  "diagrams": [
+    {
+      "id": "hakumokuren-bud-identification-reference",
+      "path": "",
+      "type": "source-photo-description",
+      "note": "122ページの写真。細長い芽が葉芽で、ふっくら丸い芽が花芽。剪定時は花芽を残すことを優先する。"
+    },
+    {
+      "id": "hakumokuren-water-shoot-reference",
+      "path": "",
+      "type": "source-photo-description",
+      "note": "122〜123ページの冬剪定写真。徒長枝はつけ根で切り取り、花芽のある枝は花後に処理する。"
+    },
+    {
+      "id": "hakumokuren-small-branch-reduction-reference",
+      "path": "",
+      "type": "source-photo-description",
+      "note": "123ページの写真。小枝を減らす場合は、木の中心に向かっている枝から剪定する。"
+    },
+    {
+      "id": "hakumokuren-fruit-removal-reference",
+      "path": "",
+      "type": "source-photo-description",
+      "note": "123ページの写真。5月の剪定では実（タネ）を取り、木が疲れないようにする。"
+    },
+    {
+      "id": "hakumokuren-old-branch-reference",
+      "path": "",
+      "type": "source-photo-description",
+      "note": "123ページの写真。古い枝が内側へ向かい、くねくねと曲がった場合は、外向きの枝が残るように剪定する。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-002",
+      "page": 122,
+      "extractionType": "combined",
+      "note": "元画像：Hakumokuren-1.JPG。名称、学名、分類、基本情報、カレンダー、芽の見分け方、5〜7月剪定、10〜12月剪定の導入、冬剪定写真から抽出。資料の開花習性は『④ 頂部翌年』だが、Schema上のflowerBudTypeへは変換せずunknownとした。"
+    },
+    {
+      "sourceId": "book-002",
+      "page": 123,
+      "extractionType": "combined",
+      "note": "元画像：Hakumokuren-2.JPG。小枝、徒長枝、無駄枝、越境枝、古枝、葉、実、新梢の処理と、春夏剪定・冬剪定の写真説明から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
