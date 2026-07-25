@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "kakuremino",
+  "groupId": "kakuremino",
+  "relationships": [],
+  "nameJa": "カクレミノ",
+  "scientificName": "",
+  "aliases": [
+    "隠蓑",
+    "ミツデ",
+    "ミツナガシワ"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・低木",
+    "familyJa": "ウコギ科",
+    "familyScientific": "",
+    "genusJa": "カクレミノ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：遅い。日当たり：極陰樹。乾湿：湿気を好む。大気汚染：強い。萌芽力：普通。",
+    "height": "自然状態：3〜10m。庭植目安：2〜5m。",
+    "spread": "自然状態：2〜5m。庭植目安：1〜3m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "若い枝へ更新し、蓑に似た切れ込みのある葉を楽しむ。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：関東〜沖縄。",
+      "花色：淡黄緑色。実色：黒。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      6
+    ],
+    "pruningMonths": [
+      5,
+      6,
+      7
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [
+      10,
+      11,
+      12
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "丸葉のついた古枝をつけ根から外して若い枝へ更新する。上枝の勢いが強く下部がすきやすいため、上方の若く勢いのある枝を切り戻し、下枝へ力が回る樹形に整える。",
+    "timing": [
+      "剪定は真夏や冬場を避け、5月の連休明けから梅雨明け前後が適期。",
+      "剪定カレンダーでは5〜7月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "古枝の更新",
+        "description": "葉の切れ込みがなく丸くなった古枝をつけ根から外し、切れ込みのある葉がつく若い枝へ更新する。",
+        "conditions": "枝が古くなり葉の切れ込みがなくなった場合。",
+        "diagramId": ""
+      },
+      {
+        "name": "上枝の切り戻し",
+        "description": "樹芯近くの上方の枝を切り戻し、下枝も伸びるようにする。",
+        "conditions": "上枝の勢いが強く、下部がすいている場合。",
+        "diagramId": "kakuremino-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "真夏や冬場の剪定を避ける。",
+      "上枝だけを伸ばすと下部がすきやすいため、上方の勢いを抑える。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "kakuremino-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "59ページの剪定図。樹芯近くの上方の枝を切り戻すと下枝も伸び、剪定しないと下枝が枯れることが示されている。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 59,
+      "extractionType": "combined",
+      "note": "元画像：Kakuremino.JPG。本文、基本データ、剪定・開花・結実カレンダー、ワンポイントアドバイス、剪定図から抽出。別名欄の『等』は別名として登録していない。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "soyogo",
+  "groupId": "soyogo",
+  "relationships": [],
+  "nameJa": "ソヨゴ",
+  "scientificName": "",
+  "aliases": [
+    "冬青",
+    "フクラシバ"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・高中木",
+    "familyJa": "モチノキ科",
+    "familyScientific": "",
+    "genusJa": "モチノキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：遅い。日当たり：中庸。乾湿：中庸。大気汚染：やや強い。萌芽力：強い。",
+    "height": "自然状態：5〜10m。庭植目安：2〜4m。",
+    "spread": "自然状態：3〜8m。庭植目安：1〜3m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "株立ちとなり、常緑樹には珍しく雑木のようなしなやかな印象がある。",
+      "雌雄異株で、雌木は秋に長い果柄を伸ばして真っ赤な実をつける。",
+      "主な病害虫：スス病、カイガラムシ。",
+      "栽培可能地域：東北南部〜沖縄。",
+      "実色：赤。",
+      "資料記載の適用樹種：モチノキ、クロガネモチなど。適用関係はappliesToへ登録していない。",
+      "未処理参照：sourceId=book-001；参照ページ=52；目的=剪定方法（三つ葉透かし）；状態=未JSON化。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [],
+    "pruningMonths": [
+      6,
+      7
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [
+      10,
+      11
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "年1回、春に吹いた新芽の伸びが止まる6月以降に、ふところ枝、からみ枝、立ち枝、徒長枝などを外し、古い葉を落として自然風に仕上げる。樹形を小さくする場合は、長い枝や古枝を根元から取り払い若い枝へ切り替える。",
+    "timing": [
+      "剪定は年1回、春に吹いた新芽の伸びが止まる6月以降に行う。",
+      "剪定カレンダーでは6〜7月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "枝透かし",
+        "description": "枝先近くで込んだ枝や、ふところ部分へ入り込んだ枝を枝元から間引く。不自然な枝ぶりになった枝はつけ根から取り去る。",
+        "conditions": "枝先やふところが込んだ場合。",
+        "diagramId": ""
+      },
+      {
+        "name": "樹形を小さくする剪定",
+        "description": "枝の分岐から長い枝を切り取り、輪郭を小さくする。込んだ部分を中心に、長い枝や古くなった枝を根元から取り払い、若い枝へ切り替える。",
+        "conditions": "樹形を小さくする場合。",
+        "diagramId": "soyogo-size-reduction-reference"
+      }
+    ],
+    "warnings": [
+      "刈り込みもできるが、枝透かしをして自然風に仕上げる。",
+      "三つ葉透かしの具体的な方法は参照先の52ページ画像がないため登録していない。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "soyogo-size-reduction-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "54ページの樹形を小さくする剪定図。枝の分岐から長い枝を切り取り、込んだ部分を中心に長い枝や古枝を根元から取り払い、若い枝へ切り替える。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 54,
+      "extractionType": "combined",
+      "note": "元画像：Soyogo.JPG。本文、基本データ、剪定・結実カレンダー、適用樹種、ワンポイントアドバイス、剪定図から抽出。52ページの三つ葉透かしの具体的説明は未JSON化。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

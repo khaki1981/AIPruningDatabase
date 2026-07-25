@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "aoki",
+  "groupId": "aoki",
+  "relationships": [],
+  "nameJa": "アオキ",
+  "scientificName": "",
+  "aliases": [
+    "青木"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・低木",
+    "familyJa": "ガリア科",
+    "familyScientific": "",
+    "genusJa": "アオキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：やや早い。日当たり：極陰樹。乾湿：湿気を好む。大気汚染：強い。萌芽力：弱い。",
+    "height": "自然状態：2〜3m。庭植目安：0.8〜1.5m。",
+    "spread": "自然状態：1.5〜3m。庭植目安：1〜1.5m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "家の北側の日の当たらない場所や大木の下への植栽に適する。",
+      "主な病害虫：カイガラムシ。",
+      "栽培可能地域：東北〜沖縄。",
+      "花色：紫。実色：赤。",
+      "雌雄異株で、実を楽しむには雄株を一緒に植える。資料の図では雄花は7mm前後、雌花は5mm前後とされている。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      4
+    ],
+    "pruningMonths": [
+      4,
+      5
+    ],
+    "flowerBudFormationMonths": [
+      6,
+      7
+    ],
+    "harvestMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "株立ち状の自然樹形を大切にし、長く伸びた古い枝を地際から間引いて新しい枝へ更新する。伸びすぎた枝は枝分かれしたところから切る。",
+    "timing": [
+      "剪定時期は4〜5月頃。",
+      "6月以降は新しい枝の先に翌年の花芽ができるため、剪定を避ける。"
+    ],
+    "methods": [
+      {
+        "name": "古枝の更新",
+        "description": "長く伸びた古い枝を地際から間引き、新しい枝を伸ばす。",
+        "conditions": "放置して株が大きくなりすぎ、樹形が乱れた場合。",
+        "diagramId": "aoki-pruning-reference"
+      },
+      {
+        "name": "伸びすぎた枝の切り戻し",
+        "description": "伸びすぎた枝を枝分かれしたところから切る。",
+        "conditions": "自然樹形から枝が伸びすぎた場合。",
+        "diagramId": "aoki-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "樹形をつくるような剪定は行わない。",
+      "6月以降にむやみに剪定すると翌年の花芽を失い、花も実も楽しめない。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "aoki-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "58ページの剪定図。伸びすぎた枝は枝分かれしたところから、古くなった枝は地際から間引く。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 58,
+      "extractionType": "combined",
+      "note": "元画像：Aoki.JPG。本文、基本データ、剪定・開花・花芽分化・結実カレンダー、ワンポイントアドバイス、花と剪定の図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

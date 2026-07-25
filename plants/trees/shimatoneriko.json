@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "shimatoneriko",
+  "groupId": "shimatoneriko",
+  "relationships": [],
+  "nameJa": "シマトネリコ",
+  "scientificName": "",
+  "aliases": [
+    "島梣",
+    "島土禰利古",
+    "タイワンシオジ"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・高中木",
+    "familyJa": "モクセイ科",
+    "familyScientific": "",
+    "genusJa": "トネリコ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：早い。日当たり：中庸。乾湿：湿気を好む。大気汚染：弱い。萌芽力：強い。",
+    "height": "自然状態：5〜10m。庭植目安：3〜5m。",
+    "spread": "自然状態：5〜8m。庭植目安：1〜2m。",
+    "deciduousEvergreen": "常緑。ただし暖地性の半落葉性樹種で、冬の最低気温が0℃くらいになると落葉する。",
+    "notes": [
+      "6〜7月に香りのある白い小さな花を咲かせ、常緑ながら落葉樹のようなしなやかでやわらかい風情がある。",
+      "主な病害虫：イモムシ、ハマキムシ。",
+      "栽培可能地域：関東〜九州。",
+      "花色：白。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      5,
+      6,
+      7
+    ],
+    "pruningMonths": [
+      3
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "花芽を気にせず、新芽が吹く前の3月頃に、伸びすぎた枝、込んだ枝、からみ枝、逆方向へ伸びる枝、ひこばえなどの忌み枝をつけ根から間引き、古い枝を若い枝へ更新して葉数の少ない自然樹形を保つ。",
+    "timing": [
+      "剪定時期は新芽が吹く前の3月頃が最適。",
+      "剪定カレンダーでは3月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "忌み枝の間引き",
+        "description": "伸びすぎた枝、込んだ枝、からみ枝、逆方向に伸びる枝、ひこばえなどをつけ根から間引く。",
+        "conditions": "樹形を整え、枝葉を更新する場合。",
+        "diagramId": "shimatoneriko-pruning-reference"
+      },
+      {
+        "name": "古枝の更新",
+        "description": "古くて太くなった枝を間引き、新しい枝へ更新して葉数を少なくする。",
+        "conditions": "古枝が太くなり樹形が重くなった場合。",
+        "diagramId": "shimatoneriko-pruning-reference"
+      },
+      {
+        "name": "樹高と樹幅の調整",
+        "description": "将来の樹形を考えて芯を止めるなど、大きくなる前に庭の広さに合う大きさへ調整する。",
+        "conditions": "生長が早いため、庭に合う大きさを維持する場合。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "生長が早くすぐに大きくなるため、若木のうちから将来の樹形を考えて手を打つ。",
+      "暖地性の半落葉性樹種であるため、落葉させないにはなるべく日当たりのよい場所で育てる。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "shimatoneriko-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "53ページの剪定図。樹冠内の不要枝とひこばえをつけ根から間引き、古い枝を新しい枝へ更新する切り位置が示されている。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 53,
+      "extractionType": "combined",
+      "note": "元画像：Shimatoneriko.JPG。本文、基本データ、剪定・開花カレンダー、ワンポイントアドバイス、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

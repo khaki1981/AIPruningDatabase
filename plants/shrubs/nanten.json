@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "nanten",
+  "groupId": "nanten",
+  "relationships": [],
+  "nameJa": "ナンテン",
+  "scientificName": "",
+  "aliases": [
+    "南天"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・低木",
+    "familyJa": "メギ科",
+    "familyScientific": "",
+    "genusJa": "ナンテン属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：やや遅い。日当たり：陰樹。乾湿：湿気を好む。大気汚染：普通。萌芽力：普通。",
+    "height": "自然状態：1〜3m。庭植目安：0.8〜1.5m。",
+    "spread": "自然状態：1〜2m。庭植目安：0.5〜1m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "5〜7本仕立てとして冬の赤い実を楽しむ。",
+      "主な病害虫：カイガラムシ。",
+      "栽培可能地域：関東南部〜沖縄。",
+      "花色：白。実色：赤、白。",
+      "小さな実は初冬頃から赤く熟し、白い実もある。",
+      "花は雄しべと雌しべを持つ完全花だが、花期が梅雨時のため結実しにくい傾向がある。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      6
+    ],
+    "pruningMonths": [
+      2,
+      3,
+      6
+    ],
+    "flowerBudFormationMonths": [
+      8,
+      9,
+      10
+    ],
+    "harvestMonths": [
+      1,
+      11,
+      12
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "花芽と葉芽を見分け、5〜7本仕立てとして不要な枝を地際から切り除く。実のついた枝は地際から切り、丈を下げる場合は6月頃に目的位置より少し低く切り詰める。",
+    "timing": [
+      "不要枝を地際から切る作業は2〜3月頃が適期。",
+      "丈を低くする切り詰めは6月頃に行う。",
+      "剪定カレンダーでは2〜3月と6月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "5〜7本仕立て",
+        "description": "株元から発生する枝のうち5〜7本を仕立てとし、ほかの枝を地際から切り除いてすっきりさせる。",
+        "conditions": "枝数が増えて雑然とした場合。",
+        "diagramId": ""
+      },
+      {
+        "name": "実のついた枝の更新",
+        "description": "実がついていた枝を地際から切り除く。",
+        "conditions": "結実した枝を更新する場合。",
+        "diagramId": ""
+      },
+      {
+        "name": "丈を下げる切り詰め",
+        "description": "目的とする位置より少し低めに切り詰め、切り口から出る新芽で目的の高さに枝葉を茂らせる。",
+        "conditions": "丈が高くなりすぎた場合。6月頃。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "実がついた枝には、その後3年くらい花芽がつかない。",
+      "花芽と葉芽を見分け、花芽がついた枝を除かない。",
+      "開花後は雨対策を行い、花に雨が当たらない場所への植栽や花穂を覆う方法も検討する。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "nanten-bud-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "60ページの花芽と葉芽の図。花芽は短く充実した枝につき、葉芽は先端が細く徒長枝につく。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 60,
+      "extractionType": "combined",
+      "note": "元画像：Nanten .JPG。本文、基本データ、剪定・開花・花芽分化・結実カレンダー、ワンポイントアドバイス、花芽と葉芽の図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

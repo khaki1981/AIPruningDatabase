@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "mokkoku",
+  "groupId": "mokkoku",
+  "relationships": [],
+  "nameJa": "モッコク",
+  "scientificName": "",
+  "aliases": [
+    "木斛"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・高中木",
+    "familyJa": "モッコク科",
+    "familyScientific": "",
+    "genusJa": "モッコク属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：やや遅い。日当たり：陰樹。乾湿：中庸。大気汚染：強い。萌芽力：強い。",
+    "height": "自然状態：10〜15m。庭植目安：2〜5m。",
+    "spread": "自然状態：4〜8m。庭植目安：2〜4m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "光沢のある葉と端正な樹形から『庭木の王様』と呼ばれ、和風庭園に欠かせない樹種とされる。",
+      "主な病害虫：スス病、ハマキムシ、カイガラムシ。",
+      "栽培可能地域：関東南部〜沖縄。",
+      "花色：白。実色：赤。",
+      "ハマキムシやカイガラムシが発生しやすいため、枝透かしで風通しをよくする。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      6,
+      7
+    ],
+    "pruningMonths": [
+      6,
+      7,
+      9,
+      10
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [
+      10,
+      11
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "新芽が固まった6〜7月頃に、車枝状に伸びる新枝を1か所に2〜3本ほど残して整理し、立ち枝、下向きの枝、勢いの強すぎる枝などを切り詰めて横張りに整える。秋には古枝をつけ根から外して新しい枝へ更新し、樹冠をすっきりさせる。",
+    "timing": [
+      "新芽が固まった6〜7月頃に剪定する。",
+      "秋は夏の間に茂って乱れた樹形を整える。",
+      "剪定カレンダーでは6〜7月と9〜10月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "車枝の整理",
+        "description": "枝元から車枝状に伸びる3〜5本の新枝を、1か所に2〜3本ほど残して整理する。",
+        "conditions": "6〜7月頃、新芽が固まった場合。",
+        "diagramId": "mokkoku-pruning-reference"
+      },
+      {
+        "name": "横張りに整える剪定",
+        "description": "上向きの枝、下向きの枝、勢いの強すぎる枝などを切り詰め、枝が横に張るように整える。",
+        "conditions": "樹形を端正に整える場合。",
+        "diagramId": "mokkoku-pruning-reference"
+      },
+      {
+        "name": "古枝の更新",
+        "description": "古枝をつけ根から外して新しい枝へ切り替え、枝張りと樹冠をすっきりさせる。",
+        "conditions": "秋、夏の間に樹形が乱れた場合。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "6〜7月に花数が著しく多い場合は樹勢の衰えが考えられるため、剪定を行わず肥料を与える。",
+      "害虫が発生しやすいため、枝透かしで風通しを確保する。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "難しい"
+  },
+  "diagrams": [
+    {
+      "id": "mokkoku-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "55ページの剪定図。1か所から車枝状に伸びる枝を整理し、真ん中の上向きの枝を抜いて樹形を整え、前年の葉も落とす。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 55,
+      "extractionType": "combined",
+      "note": "元画像：Mokkoku.JPG。本文、基本データ、剪定・開花・結実カレンダー、ワンポイントアドバイス、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
