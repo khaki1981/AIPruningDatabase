@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "fuji",
+  "groupId": "fuji",
+  "relationships": [],
+  "nameJa": "フジ",
+  "scientificName": "",
+  "aliases": [
+    "藤",
+    "ノダフジ"
+  ],
+  "classification": {
+    "category": "春の花木・つる植物",
+    "familyJa": "マメ科",
+    "familyScientific": "",
+    "genusJa": "フジ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：早い。萌芽力：強い。",
+    "height": "自然状態：10m以上。庭植目安：2〜3m。",
+    "spread": "自然状態：10m以上。庭植目安：2〜15m。",
+    "deciduousEvergreen": "",
+    "notes": [
+      "日当たりは陽樹。",
+      "乾燥を嫌う。",
+      "大気汚染への強さは普通。",
+      "主な病害虫はコブ病、根頭癌腫病、ハムシ。",
+      "栽培可能地域はほぼ全国。",
+      "花色は紫、白。",
+      "フジはノダフジ系とヤマフジ系に分かれ、一般にフジと呼ばれるものはノダフジを指す。",
+      "ノダフジは花房が20〜60cmほどで長いものはそれ以上になり、つるは右巻き。ヤマフジは花房が10〜20cmで花が大きく早咲きとなり、つるは左巻き。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      4,
+      5
+    ],
+    "pruningMonths": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "剪定は花後と冬の年2回を基本とする。花後は勢いよく伸びるつるの先端を軽く剪定し、冬は花芽を確認しながら長いつるを切り戻す。",
+    "timing": [
+      "剪定適期は1〜2月、5月下旬〜7月上旬、12月。",
+      "花後は軽く剪定し、本格的な剪定は12〜2月の落葉期に行う。",
+      "翌春に咲く花芽は梅雨明け頃から夏にかけて形成される。"
+    ],
+    "methods": [
+      {
+        "name": "花後の軽剪定",
+        "description": "花が終わったら、勢いよく伸びるつるの先端を軽く切り詰める。つるが長く伸びすぎないように剪定し、日当たりと風通しを確保する。",
+        "conditions": "花後の5月下旬〜7月上旬。",
+        "diagramId": "fuji-pruning-reference"
+      },
+      {
+        "name": "冬の切り戻し剪定",
+        "description": "枝元近くの短い側枝につくふっくらした花芽を見つけ、その先の葉芽を5〜6芽残して長いつるを切り戻す。",
+        "conditions": "落葉して花芽を確認しやすい12〜2月。",
+        "diagramId": "fuji-pruning-reference"
+      },
+      {
+        "name": "花つきを促す処置",
+        "description": "幹に太い針金をきつく巻く方法、または根元の周囲をナイフで切る根切りにより、栄養生長を抑えて生殖生長を促す。",
+        "conditions": "花が咲かない場合に花後に行い、針金は花芽ができたら外す。",
+        "diagramId": "fuji-growth-control-reference"
+      }
+    ],
+    "warnings": [
+      "花が終わった花房は、実をつけて養分を消耗し花つきを悪くするため、早めに切り取る。",
+      "花後の剪定では、翌年の花芽がつく短い側枝に日が当たるようにする。",
+      "幹に巻いた針金は花芽ができたら外す。",
+      "根切りは樹への負担が大きいため、真夏を避けて花後に行う。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "難しい"
+  },
+  "diagrams": [
+    {
+      "id": "fuji-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "131ページの剪定図。花後の6月頃につる先を軽く切り、冬は花芽の先に葉芽を5〜6芽残して切り戻す。"
+    },
+    {
+      "id": "fuji-growth-control-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "131ページの花つきをよくする処置の図。幹に太い針金を巻く方法と、根元の周囲をナイフで切る根切りを示す。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 130,
+      "extractionType": "combined",
+      "note": "元画像：Fuji-1.JPG。名称、別名、分類、基本データ、本文、剪定・開花・花芽分化カレンダーから抽出。人間の元画像確認による詳細時期は、開花期が4月中旬〜5月、剪定適期が1〜2月、5月下旬〜7月上旬、12月。資料には花芽タイプ④とあるが、Schema上の花芽タイプとの対応を確認できないためunknownとした。"
+    },
+    {
+      "sourceId": "book-001",
+      "page": 131,
+      "extractionType": "combined",
+      "note": "元画像：Fuji-2.JPG。花後と冬の剪定方法、花芽のつき方、花つきを促す処置、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

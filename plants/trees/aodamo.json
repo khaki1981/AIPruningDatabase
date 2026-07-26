@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "aodamo",
+  "groupId": "aodamo",
+  "relationships": [],
+  "nameJa": "アオダモ",
+  "scientificName": "",
+  "aliases": [
+    "青梻",
+    "コバノトネリコ"
+  ],
+  "classification": {
+    "category": "落葉樹・高中木",
+    "familyJa": "モクセイ科",
+    "familyScientific": "",
+    "genusJa": "トネリコ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：遅い。日当たり：中庸。乾湿：湿気を好む。大気汚染：普通。萌芽力：強い。",
+    "height": "自然状態：5〜15m。庭植目安：4〜8m。",
+    "spread": "自然状態：3〜8m。庭植目安：2〜5m。",
+    "deciduousEvergreen": "落葉",
+    "notes": [
+      "株立ちの自然樹形を楽しむ。",
+      "雌雄異株で、4〜5月に5〜6mmほどの白い花をつける。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：ほぼ全国。",
+      "花色：白。",
+      "材は硬く弾力があり、プロ野球のバットに使われる。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      4,
+      5
+    ],
+    "pruningMonths": [
+      1,
+      2,
+      11,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      8
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "落葉期に、交差した枝や株元から長く伸びた枝をつけ根から外し、自然な枝振りを保つ。樹高を抑える場合は上限を決め、数年に一度芯を止める。",
+    "timing": [
+      "剪定は葉のない落葉期に行う。",
+      "剪定カレンダーでは11〜2月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "自然樹形を保つ枝透かし",
+        "description": "交差した枝や株元から長く伸びた枝をつけ根から切る。",
+        "conditions": "枝が交差した場合や長い枝が株元から伸びた場合。",
+        "diagramId": "aodamo-pruning-reference"
+      },
+      {
+        "name": "枝先の三つ又透かし",
+        "description": "枝先が三つ又になった部分では、両脇の枝を残して真ん中の枝をつけ根から切る。",
+        "conditions": "枝先を透かす場合。",
+        "diagramId": "aodamo-pruning-reference"
+      },
+      {
+        "name": "樹高の抑制",
+        "description": "最大樹高を決め、数年に一度芯を止める。",
+        "conditions": "自然状態では10〜15mに達するため、庭植えで高さを抑える場合。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "枝先をむやみに切り詰めると、やわらかな自然樹形を損なう。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "aodamo-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "68ページの剪定図。枝先の三つ又透かし、樹形を小さくする剪定、枝の大小に応じた透かし位置を示す。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 68,
+      "extractionType": "combined",
+      "note": "元画像：Aodamo.JPG。本文、基本データ、剪定・開花・花芽分化カレンダー、メモ、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

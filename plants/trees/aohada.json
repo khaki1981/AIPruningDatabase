@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "aohada",
+  "groupId": "aohada",
+  "relationships": [],
+  "nameJa": "アオハダ",
+  "scientificName": "",
+  "aliases": [
+    "青膚",
+    "青肌"
+  ],
+  "classification": {
+    "category": "落葉樹・高中木",
+    "familyJa": "モチノキ科",
+    "familyScientific": "",
+    "genusJa": "モチノキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：やや遅い。日当たり：中庸。乾湿：湿気を好む。大気汚染：普通。萌芽力：強い。",
+    "height": "自然状態：6〜10m。庭植目安：3〜5m。",
+    "spread": "自然状態：3〜5m。庭植目安：1〜2m。",
+    "deciduousEvergreen": "落葉",
+    "notes": [
+      "薄い樹皮がはがれると緑色の肌が現れることが名前の由来とされる。",
+      "株元から細い幹を数本伸ばし、まっすぐでしなやかな樹形になる。",
+      "雌雄異株で、実を楽しむには雄木と雌木を一緒に植える。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：ほぼ全国。",
+      "花色：緑白。実色：赤。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      5,
+      6
+    ],
+    "pruningMonths": [
+      1,
+      2,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      8
+    ],
+    "harvestMonths": [
+      10,
+      11,
+      12
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "自然に樹形が整うため、冬に込んだ枝、逆さ枝、勢いの強い枝をつけ根から切る。樹形を小さくする場合は、長い枝を短い枝へ切り替える。",
+    "timing": [
+      "剪定は冬に行う。",
+      "剪定カレンダーでは12〜2月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "不要枝の枝透かし",
+        "description": "込んだ枝、逆さ枝、勢いの強い枝をつけ根から切る。",
+        "conditions": "自然樹形を保ちながら枝が込んだ場合。",
+        "diagramId": "aohada-pruning-reference"
+      },
+      {
+        "name": "長い枝の切り替え",
+        "description": "長く伸びた枝をつけ根から切り、短い枝へ切り替える。",
+        "conditions": "樹形を小さくする場合。",
+        "diagramId": "aohada-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "枝先を強く切り詰める過剪定は行わない。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "aohada-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "69ページの剪定図。長い枝をつけ根から外して短い枝に切り替え、逆さ枝や込んだ枝をつけ根から外す方法を示す。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 69,
+      "extractionType": "combined",
+      "note": "元画像：Aohada.JPG。本文、基本データ、剪定・開花・花芽分化・結実カレンダー、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

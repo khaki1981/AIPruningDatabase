@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "manryou",
+  "groupId": "manryou",
+  "relationships": [],
+  "nameJa": "マンリョウ",
+  "scientificName": "",
+  "aliases": [
+    "万両",
+    "ヤブタチバナ"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・低木",
+    "familyJa": "サクラソウ科",
+    "familyScientific": "",
+    "genusJa": "ヤブコウジ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：やや遅い。日当たり：陰樹。乾湿：湿気を好む。大気汚染：強い。萌芽力：なし。",
+    "height": "自然状態：0.5〜1m。庭植目安：0.3〜0.8m。",
+    "spread": "自然状態：0.4〜0.6m。庭植目安：0.3〜0.5m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "葉の下に赤い実を釣鐘状につける。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：関東〜沖縄。",
+      "実色：赤、白。",
+      "白い実をつける品種にシロミノマンリョウがある。",
+      "千両と万両は縁起木の代表とされ、名前は財産やお金に関係する。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      6,
+      7
+    ],
+    "pruningMonths": [
+      4,
+      5,
+      6
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8,
+      9
+    ],
+    "harvestMonths": [
+      1,
+      2,
+      11,
+      12
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "枝分かれが少なく間延びした場合は、4〜6月に下方の葉のすぐ上で切り戻し、新しい枝を出させて丈を低くする。",
+    "timing": [
+      "切り戻しは4〜6月に行う。",
+      "剪定カレンダーでは4〜6月が剪定適期として示されている。",
+      "切り戻しは4〜5年に1回程度行う。"
+    ],
+    "methods": [
+      {
+        "name": "葉の上での切り戻し",
+        "description": "下方にある葉のすぐ上で幹を切り、新しい枝を出させて丈を低くする。",
+        "conditions": "幹が伸びて樹形のバランスが悪くなった場合。",
+        "diagramId": "manryou-cutback-reference"
+      },
+      {
+        "name": "株元近くでの切り戻し",
+        "description": "節間が特に長くなった幹は株元近くで切り戻す。",
+        "conditions": "幹が特に間延びした場合。",
+        "diagramId": "manryou-cutback-reference"
+      }
+    ],
+    "warnings": [
+      "株元近くで切り戻した年は実を楽しめないが、翌年にはコンパクトになった株に花と実がつく。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "manryou-cutback-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "64ページの剪定図。通常は下方の葉のすぐ上で切り、特に間延びした幹は株元近くで切る。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 64,
+      "extractionType": "combined",
+      "note": "元画像：Manryou.JPG。本文、基本データ、剪定・開花・花芽分化・結実カレンダー、品種記載、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

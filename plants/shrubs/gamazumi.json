@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "gamazumi",
+  "groupId": "gamazumi",
+  "relationships": [],
+  "nameJa": "ガマズミ",
+  "scientificName": "",
+  "aliases": [
+    "莢蒾",
+    "ヨツズミ",
+    "ビバーナム"
+  ],
+  "classification": {
+    "category": "落葉樹・低木",
+    "familyJa": "レンプクソウ科",
+    "familyScientific": "",
+    "genusJa": "ガマズミ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：やや早い。日当たり：陽樹。乾湿：中庸。大気汚染：やや強い。萌芽力：強い。",
+    "height": "自然状態：2〜4m。庭植目安：1.5〜2m。",
+    "spread": "自然状態：1.5〜3m。庭植目安：1〜2m。",
+    "deciduousEvergreen": "落葉",
+    "notes": [
+      "初夏に小さな白い花が枝先に多数集まって咲き、秋に深紅の実をつけ、葉も紅葉する。",
+      "主な病害虫：テッポウムシ、ハマキムシ。",
+      "栽培可能地域：北海道南部〜沖縄。",
+      "花色：白、ピンク。実色：赤。",
+      "実は色づき始めには渋く酸味が強いが、初冬には甘くなり、ジャムや果実酒に利用できる。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      5,
+      6
+    ],
+    "pruningMonths": [
+      12
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "harvestMonths": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "葉のない冬期に、野生の風合いを損なわない程度に、密に茂った枝、込み合った枝、からみ合った枝を間引く。樹冠から飛び出す長い枝は短い枝へ更新する。",
+    "timing": [
+      "剪定は葉のない冬期に行う。",
+      "剪定カレンダーでは12月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "枝透かし",
+        "description": "込み合った枝やからみ合った枝を、枝元から切って間引く。",
+        "conditions": "枝が密に茂った場合。",
+        "diagramId": "gamazumi-pruning-reference"
+      },
+      {
+        "name": "樹形を小さくする剪定",
+        "description": "太く長く伸びた枝をなるべくつけ根から間引き、新しい枝を出させる。枝先を詰める場合も枝元から切り取る。",
+        "conditions": "樹形を小さくする場合。",
+        "diagramId": "gamazumi-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "野生のままの風合いが魅力であるため、人工的にならない程度の枝抜きにとどめる。",
+      "ひこばえが発生しやすいため、見つけたら早めに地際から抜く。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "gamazumi-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "74ページの剪定図。込み合う枝を枝元から間引く方法と、太く長い枝をつけ根から間引いて新しい枝へ更新する方法を示す。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 74,
+      "extractionType": "combined",
+      "note": "元画像：Gabazumi.JPG。本文見出しはガマズミ。本文、基本データ、剪定・開花・花芽分化・結実カレンダー、メモ、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

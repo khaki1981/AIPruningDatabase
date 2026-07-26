@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "marubanoki",
+  "groupId": "marubanoki",
+  "relationships": [],
+  "nameJa": "マルバノキ",
+  "scientificName": "",
+  "aliases": [
+    "丸葉の木",
+    "ベニマンサク"
+  ],
+  "classification": {
+    "category": "落葉樹・低木",
+    "familyJa": "マンサク科",
+    "familyScientific": "",
+    "genusJa": "マルバノキ属",
+    "genusScientific": "",
+    "cultivar": "恵那錦、利休"
+  },
+  "basicData": {
+    "growthHabit": "生長速度：普通。日当たり：陽樹。乾湿：湿気を好む。大気汚染：普通。萌芽力：普通。",
+    "height": "自然状態：2〜3m。庭植目安：1〜2m。",
+    "spread": "自然状態：2〜3m。庭植目安：1〜2m。",
+    "deciduousEvergreen": "落葉",
+    "notes": [
+      "丸みのあるハート形の葉をつけ、春の若葉と秋の紅葉を楽しめる。",
+      "紅葉が散り始める頃に、マンサクに似た赤紫の小さな花をつける。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：東北南部〜沖縄。",
+      "花色：赤紫。",
+      "葉の縁に白い斑が入る恵那錦と、生長が遅い矮性種の利休がある。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      10,
+      11
+    ],
+    "pruningMonths": [
+      1,
+      2,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      6
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "冬の落葉期に自然樹形を保ちながら、古くなった枝や込み合った枝を枝元から間引く。小さくまとめる場合は株元から出る古く太い枝を抜いて新しい枝へ更新する。",
+    "timing": [
+      "剪定は冬の落葉期に行う。",
+      "剪定カレンダーでは12〜2月が剪定適期として示されている。",
+      "古枝の更新は2〜3年に1回行う。"
+    ],
+    "methods": [
+      {
+        "name": "自然樹形を保つ枝透かし",
+        "description": "枝が込み合ったり、からみ合ったり、ぶつかり合ったりしないよう、小枝を中心に枝元から間引く。",
+        "conditions": "通常の剪定。",
+        "diagramId": "marubanoki-pruning-reference"
+      },
+      {
+        "name": "樹形を小さくする剪定",
+        "description": "株元から出る大きく茂った古く太い枝を、なるべくつけ根から切って新しい枝へ更新する。",
+        "conditions": "樹形を小さくまとめる場合。2〜3年に1回。",
+        "diagramId": "marubanoki-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "樹形が不自然にならないよう、太い枝はなるべくつけ根から切る。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "marubanoki-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "75ページの剪定図。小枝を中心に間引く方法と、株元から出る古く太い枝をつけ根から切って樹形を小さくする方法を示す。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 75,
+      "extractionType": "combined",
+      "note": "元画像：Marubanoki.JPG。本文、基本データ、剪定・開花・花芽分化カレンダー、品種記載、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

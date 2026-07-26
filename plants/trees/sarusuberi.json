@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "sarusuberi",
+  "groupId": "sarusuberi",
+  "relationships": [],
+  "nameJa": "サルスベリ",
+  "scientificName": "",
+  "aliases": [
+    "百日紅",
+    "ヒャクジッコウ"
+  ],
+  "classification": {
+    "category": "夏の花木・高中木",
+    "familyJa": "ミソハギ科",
+    "familyScientific": "",
+    "genusJa": "サルスベリ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：やや早い。萌芽力：強い。",
+    "height": "自然状態：3〜8m。庭植目安：1〜6m。",
+    "spread": "自然状態：3〜8m。庭植目安：2〜5m。",
+    "deciduousEvergreen": "",
+    "notes": [
+      "日当たりは陽樹。",
+      "乾燥を好む。",
+      "大気汚染への強さは普通。",
+      "主な病害虫はウドンコ病、スス病、アブラムシ、カイガラムシ。",
+      "栽培可能地域は東北南部〜沖縄。",
+      "花色は濃いピンク、白、赤、紫。",
+      "夏の花の少ない時期から秋まで、100日ほど長く花を咲かせる。",
+      "褐色の樹皮が一部はがれ、つるつるとした幹肌が現れる。",
+      "資料のメモには、サルスベリ属の主な種類としてシマサルスベリ、ヤクシマサルスベリ、オオバナサルスベリ、ムラサキサルスベリと、園芸品種の例が記載されている。これらを独立JSONや構造化参照には登録していない。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      7,
+      8,
+      9
+    ],
+    "pruningMonths": [
+      1,
+      2,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      5,
+      6
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "花後は花がらを除く程度にとどめ、本格的な剪定は冬の落葉期に行う。花数を少なく大きくしたい場合は強剪定、花数を多くしたい場合は弱剪定とし、同じ位置で切り続けてコブをつくらない。",
+    "timing": [
+      "本格的な剪定は12〜2月の落葉期に行う。",
+      "花後に急いで剪定すると切り口から土用枝が発生するため、花後は花がらを除く程度にする。",
+      "サルスベリは春から伸びた枝先に花芽をつけて夏に開花するため、落葉期には花芽を気にせず剪定できる。"
+    ],
+    "methods": [
+      {
+        "name": "強剪定",
+        "description": "今年伸びた枝を枝元に2〜3芽残して深く切り戻す。枝元から約10cmの位置を目安とする。前年に伸びた枝でも勢いのあるものを2〜3本ほど残し、ほかは元から切る。",
+        "conditions": "花数を少なくして大きな花を咲かせたい場合。",
+        "diagramId": "sarusuberi-strong-weak-pruning-reference"
+      },
+      {
+        "name": "弱剪定",
+        "description": "残す枝の4分の3〜3分の2くらいを残すように、枝先を軽く切り戻す。",
+        "conditions": "個々の花房は小さくても、多くの花を咲かせたい場合。",
+        "diagramId": "sarusuberi-strong-weak-pruning-reference"
+      },
+      {
+        "name": "コブをつくらない剪定",
+        "description": "前年に切った位置よりも少し下の枝がある上で切る。コブが大きくなった場合は、コブを傷つけないようにコブのすぐ上で切る。",
+        "conditions": "同じ位置での剪定を繰り返さず、切り口の膨らみを防ぐ場合。",
+        "diagramId": "sarusuberi-knob-prevention-reference"
+      }
+    ],
+    "warnings": [
+      "花後に急いで剪定すると、切り口から土用枝が発生して勢いよく伸び、樹形を乱す。",
+      "毎年同じ位置で切ると、切り口が膨らんでコブになる。",
+      "大きくなったコブを切り取ると切断面から腐朽菌が入り、腐る原因になる。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "sarusuberi-strong-weak-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "98ページの剪定図。強剪定と弱剪定の切り位置、および強剪定では花数が少なく花房が大きくなり、弱剪定では花数が増えて花房が小さくなる違いを示す。"
+    },
+    {
+      "id": "sarusuberi-knob-prevention-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "99ページの剪定図。枝を残さない切り方やコブの下で切る方法を避け、コブを傷つけないようにすぐ上で切る方法を示す。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 98,
+      "extractionType": "combined",
+      "note": "元画像：Sarusuberi-1.JPG。名称、別名、分類、基本データ、剪定・開花・花芽分化カレンダー、本文、強剪定・弱剪定の図から抽出。資料には花芽タイプ⑥とあるが、Schema上の花芽タイプとの対応を確認できないためunknownとした。"
+    },
+    {
+      "sourceId": "book-001",
+      "page": 99,
+      "extractionType": "combined",
+      "note": "元画像：Sarusuberi-2.JPG。強剪定・弱剪定の説明、コブをつくらない剪定方法、サルスベリ属の種類と園芸品種のメモから抽出。メモ中の別種・園芸品種は独立JSONや構造化参照には登録していない。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

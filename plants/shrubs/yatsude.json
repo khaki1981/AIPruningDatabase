@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "yatsude",
+  "groupId": "yatsude",
+  "relationships": [],
+  "nameJa": "ヤツデ",
+  "scientificName": "",
+  "aliases": [
+    "八手",
+    "テングノウチワ"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・低木",
+    "familyJa": "ウコギ科",
+    "familyScientific": "",
+    "genusJa": "ヤツデ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：早い。日当たり：極陰樹。乾湿：湿気を好む。大気汚染：強い。萌芽力：強い。",
+    "height": "自然状態：2〜3m。庭植目安：1〜2m。",
+    "spread": "自然状態：1.5〜2.5m。庭植目安：1〜1.5m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "枝分かれせず幹が直立し、頂部に新しい葉を広げて下葉を順に落とす。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：東北南部〜沖縄。",
+      "花色：白。実色：黒紫。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      12
+    ],
+    "pruningMonths": [
+      1,
+      2,
+      6,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8,
+      9
+    ],
+    "harvestMonths": [
+      4,
+      5
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "梅雨入り頃に下方の葉がある位置まで切り戻して潜芽を出させる。大きくなりすぎた株は古い枝を地際から除き、ひこばえを生かして3〜5本立ちにする。冬は大きな葉を半分ほどに切り、葉を3枚程度残す。",
+    "timing": [
+      "切り戻しは梅雨入り頃に行う。",
+      "冬の葉切りは12月頃に行う。",
+      "剪定カレンダーでは1〜2月、6月、12月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "葉の上での切り戻し",
+        "description": "下方の葉がある位置まで幹を切り戻し、潜芽を出させて樹形をコンパクトにする。",
+        "conditions": "幹が高く伸びた場合。梅雨入り頃。",
+        "diagramId": "yatsude-pruning-reference"
+      },
+      {
+        "name": "3〜5本立ちへの更新",
+        "description": "古い枝を地際から除き、ひこばえを生かして3〜5本を残す。",
+        "conditions": "株が大きくなりすぎた場合。",
+        "diagramId": "yatsude-pruning-reference"
+      },
+      {
+        "name": "冬の葉切り",
+        "description": "大きな葉を半分ほどに切り、葉を3枚程度残して新しく出る葉を小さくする。",
+        "conditions": "12月頃。3年に1回。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "葉より下で切ると枝が枯れ込み芽が出ないため、必ず葉の上で切る。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "yatsude-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "65ページの剪定図。葉の上で切り戻す位置と、大きくなった株を3〜5本立ちに更新する方法を示す。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 65,
+      "extractionType": "combined",
+      "note": "元画像：Yatsude.JPG。本文、基本データ、剪定・開花・花芽分化・結実カレンダー、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

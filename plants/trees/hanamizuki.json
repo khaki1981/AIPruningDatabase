@@ -23,7 +23,10 @@
     ]
   },
   "calendar": {
-    "floweringMonths": [],
+    "floweringMonths": [
+      4,
+      5
+    ],
     "pruningMonths": [
       1,
       2,
@@ -32,7 +35,10 @@
     "flowerBudFormationMonths": [
       8
     ],
-    "harvestMonths": [],
+    "harvestMonths": [
+      10,
+      11
+    ],
     "plantingMonths": []
   },
   "pruning": {
@@ -76,7 +82,7 @@
       "sourceId": "book-001",
       "page": 92,
       "extractionType": "combined",
-      "note": "元画像：Hanamizuki_yamaboushi.jpg。本文、剪定カレンダー、ハナミズキ専用の剪定図から抽出。ページ共通欄の基本データはハナミズキへの個別適用を画像だけでは確定できないため登録していない。交配品種のメモは一般的なハナミズキの項目に含めていない。資料には花芽タイプ②とあるが、Schema上の花芽タイプとの対応を確認できないためunknownとした。"
+      "note": "元画像：Hanamizuki_yamaboushi.jpg。本文、剪定カレンダー、ハナミズキ専用の剪定図から抽出。ページ共通欄の基本データはハナミズキへの個別適用を画像だけでは確定できないため登録していない。交配品種のメモは一般的なハナミズキの項目に含めていない。資料には花芽タイプ②とあるが、Schema上の花芽タイプとの対応を確認できないためunknownとした。カレンダー月内範囲：開花期は4月中旬〜5月中旬。"
     }
   ],
   "reviewStatus": "draft",

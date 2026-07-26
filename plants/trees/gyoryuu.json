@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "gyoryuu",
+  "groupId": "gyoryuu",
+  "relationships": [],
+  "nameJa": "ギョリュウ",
+  "scientificName": "",
+  "aliases": [
+    "御柳"
+  ],
+  "classification": {
+    "category": "落葉樹・高中木",
+    "familyJa": "ギョリュウ科",
+    "familyScientific": "",
+    "genusJa": "ギョリュウ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：早い。日当たり：陽樹。乾湿：湿気を好む。大気汚染：やや強い。萌芽力：強い。",
+    "height": "自然状態：4〜7m。庭植目安：2〜5m。",
+    "spread": "自然状態：3〜6m。庭植目安：2〜4m。",
+    "deciduousEvergreen": "落葉",
+    "notes": [
+      "アスパラガスのような細かな葉をつけ、淡いピンクの穂状の花を年2〜3回咲かせる。",
+      "主な病害虫：カイガラムシ。",
+      "栽培可能地域：北海道〜本州北部。",
+      "花色：ピンク。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      5,
+      7,
+      8,
+      9
+    ],
+    "pruningMonths": [
+      1,
+      2,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "落葉期に自然な枝垂れを生かしながら枝を透かす。3年以上経過した枝は花つきが減るため、数年に一度若い枝へ更新する。",
+    "timing": [
+      "剪定は葉のない落葉期に行う。",
+      "剪定カレンダーでは12〜2月が剪定適期として示されている。"
+    ],
+    "methods": [
+      {
+        "name": "自然樹形を保つ枝透かし",
+        "description": "自然な枝垂れを損なわないように枝を透かす。",
+        "conditions": "通常の剪定。",
+        "diagramId": ""
+      },
+      {
+        "name": "古枝の更新",
+        "description": "当年枝を落葉後につけ根から切り、翌春に切り口から新しい枝を出させる。",
+        "conditions": "3年以上経過して花芽がつきにくくなった枝を更新する場合。",
+        "diagramId": "gyoryuu-renewal-reference"
+      },
+      {
+        "name": "枝垂れを優先する剪定",
+        "description": "上向きの枝を切り、下向きの枝を残す。",
+        "conditions": "花よりも枝垂れる樹形を優先する場合。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "上向きの枝には花がつきやすく、下向きの枝には花がつきにくいため、残す枝は目的に応じて選ぶ。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "gyoryuu-renewal-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "72ページの剪定図。当年枝を落葉後につけ根から切り、翌春に新枝を出させ、その先に花芽をつける更新方法を示す。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 72,
+      "extractionType": "combined",
+      "note": "元画像：Gyoryuu.JPG。本文、基本データ、剪定・開花・花芽分化カレンダー、剪定図から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "ume",
+  "groupId": "ume",
+  "relationships": [],
+  "nameJa": "ウメ",
+  "scientificName": "",
+  "aliases": [
+    "梅"
+  ],
+  "classification": {
+    "category": "春の花木・高中木",
+    "familyJa": "バラ科",
+    "familyScientific": "",
+    "genusJa": "アンズ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "生長速度：やや遅い。萌芽力：強い。",
+    "height": "自然状態：5〜10m。庭植目安：3〜6m。",
+    "spread": "自然状態：3〜8m。庭植目安：2〜5m。",
+    "deciduousEvergreen": "",
+    "notes": [
+      "日当たりは陽樹。",
+      "湿気を好む。",
+      "大気汚染に弱い。",
+      "主な病害虫は黒斑病、アブラムシ、カイガラムシ、オビカレハ（ウメケムシ）。",
+      "栽培可能地域は東北〜沖縄。",
+      "花色は紅、白、ピンク。",
+      "実色は緑〜黄、赤。",
+      "ウメには白系や紅系、枝垂系、果実をとるための改良種などがあり、花を観賞する花ウメが300種以上、実を収穫する実ウメが100種以上ある。",
+      "資料のメモでは、野梅系、紅梅系（以上、花ウメ）、豊後系、杏系（以上、実ウメ）の4つに大別される。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      2,
+      3
+    ],
+    "pruningMonths": [
+      1,
+      11,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "harvestMonths": [
+      6
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "花芽と葉芽を見分け、花芽を残しながらウメらしい樹形をつくる。萌芽力があり強剪定にも耐えるが、花つきを保つため、花芽が固まった秋から冬に剪定する。",
+    "timing": [
+      "剪定適期は11〜12月と1月。",
+      "花芽は8月いっぱいくらいまでに決まり、10月頃には固まる。",
+      "花芽と葉芽を見分けにくい場合は、蕾がはっきりしてから剪定する。"
+    ],
+    "methods": [
+      {
+        "name": "長い枝の切り戻し",
+        "description": "長い枝は花芽を2〜3個残し、その先を切って短くする。",
+        "conditions": "花芽を残して樹形を整える場合。",
+        "diagramId": "ume-pruning-reference"
+      },
+      {
+        "name": "花芽のある短枝の剪定",
+        "description": "花芽のついた短枝は枝先を切る。",
+        "conditions": "花芽のついた短枝を整える場合。",
+        "diagramId": "ume-pruning-reference"
+      },
+      {
+        "name": "花芽のない短枝の剪定",
+        "description": "花芽のついていない短枝は枝先を2分の1〜3分の1程度切り、必ず外芽のすぐ上で切る。",
+        "conditions": "花芽のついていない短枝を整える場合。",
+        "diagramId": "ume-pruning-reference"
+      },
+      {
+        "name": "徒長枝の除去",
+        "description": "内側に向かって勢いよく伸びる徒長枝は、早いうちに枝元から切る。",
+        "conditions": "樹冠内部に徒長枝が出た場合。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "花芽が決まる前に剪定すると、花芽になろうとしていた芽が葉芽になり、翌年の開花数が減る。",
+      "花芽のある枝だけを毎年残すと、花の位置が上へ移り、幹まわりが寂しくなってウメらしい樹形をつくれない。",
+      "枝は外芽の上で切り口が斜めになるように切る。寒い地方では芽に近すぎると寒さや雪で枯れることがあるため、余裕をもって切る。",
+      "オビカレハ、アブラムシ、黒斑病などに侵されやすいため、日照、通風、防虫、殺虫に注意する。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "やや易しい"
+  },
+  "diagrams": [
+    {
+      "id": "ume-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "85ページの剪定図。長い枝は花芽を2〜3個残して切り、花芽のついていない短枝は枝先を2分の1〜3分の1程度切る。"
+    },
+    {
+      "id": "ume-bud-identification-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "85ページの花芽と葉芽の見分け方。花芽のついた葉は葉元がくるっと巻いて葉先が下がり、花芽のつかない葉はまっすぐ伸びて葉先まで直線的に描かれている。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 84,
+      "extractionType": "combined",
+      "note": "元画像：Ume-1.JPG。名称、分類、基本データ、剪定・開花・花芽分化・結実カレンダー、本文、メモから抽出。資料には花芽タイプ①とあるが、Schema上の花芽タイプとの対応を確認できないためunknownとした。"
+    },
+    {
+      "sourceId": "book-001",
+      "page": 85,
+      "extractionType": "combined",
+      "note": "元画像：Ume-2.JPG。ウメらしい樹形をつくる剪定方法、ワンポイントアドバイス、剪定図、花芽と葉芽の見分け方から抽出。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
