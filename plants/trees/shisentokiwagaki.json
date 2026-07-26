@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "shisentokiwagaki",
+  "groupId": "shisentokiwagaki-rouyagaki",
+  "relationships": [],
+  "nameJa": "シセントキワガキ",
+  "scientificName": "",
+  "aliases": [
+    "四川常盤柿"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・高中木",
+    "familyJa": "カキノキ科",
+    "familyScientific": "",
+    "genusJa": "カキノキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "大きくなりにくく、刈り込みにもよく耐える。",
+    "height": "自然状態：4〜5m。庭植え：2〜3m。",
+    "spread": "自然状態：1〜2m。庭植え：0.5〜1m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "生長速度：早い。",
+      "日当たり：中庸。",
+      "乾湿：中庸。",
+      "大気汚染：強い。",
+      "萌芽力：強い。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：東北南部以南。",
+      "花色：白。",
+      "果実色：橙。",
+      "日本に自生するトキワガキよりも柿色の果実が美しく目立つ。",
+      "基本種は渋柿だが、まれに甘く食べられるものもある。",
+      "雌雄異株で、雌株を選ばないと果実はつかない。",
+      "鉢植えでも楽しめる。生垣ではオレンジ色の果実が映える。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      5
+    ],
+    "harvestMonths": [
+      10,
+      11,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "pruningMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "単木では込み合った枝や徒長枝などを剪定し、生垣では通常どおり刈り込む。",
+    "timing": [
+      "カレンダーでは3〜4月、5〜6月"
+    ],
+    "methods": [
+      {
+        "name": "単木の不要枝を剪定する",
+        "description": "込み合った枝や徒長枝などを剪定する。外芽の上で切り、ひこばえは枝元から切る。",
+        "conditions": "単木の場合。",
+        "diagramId": "shisentokiwagaki-pruning-reference"
+      },
+      {
+        "name": "生垣を刈り込む",
+        "description": "生垣は通常どおり刈り込む。",
+        "conditions": "生垣の場合。",
+        "diagramId": "shisentokiwagaki-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "尖った枝先でけがをしないよう、皮手袋を使用する。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "shisentokiwagaki-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "Shisentokiwagaki_rouyagaki.JPGに掲載された、シセントキワガキと明記された剪定図。外芽の上で切り、ひこばえは枝元から切る。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 56,
+      "extractionType": "combined",
+      "note": "元画像：Shisentokiwagaki_rouyagaki.JPG。カレンダーと対象植物が個別に明示されていない基本データは、同ページの2植物に共通する情報として採録。月内の境界は確定せず月単位のみ採録。剪定方法と図はシセントキワガキと明記された内容のみ採録。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

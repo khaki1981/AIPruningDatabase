@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "kurumetsutsuji",
+  "groupId": "tsutsuji-rui",
+  "relationships": [],
+  "nameJa": "クルメツツジ",
+  "scientificName": "",
+  "aliases": [],
+  "classification": {
+    "category": "春の花木・低木",
+    "familyJa": "ツツジ科",
+    "familyScientific": "",
+    "genusJa": "ツツジ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "枝数が多く、刈り込みで樹形を整える常緑性のツツジ。",
+    "height": "自然状態：0.5〜3m。庭植え：0.3〜2.5m。",
+    "spread": "自然状態：0.5〜3m。庭植え：0.3〜2.5m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "生長速度：やや早い。",
+      "日当たり：陽樹。",
+      "乾湿：乾燥に弱い。",
+      "大気汚染：強い。",
+      "萌芽力：強い。",
+      "主な病害虫：褐斑病、ツツジグンバイムシ、アブラムシ、ハダニ。",
+      "栽培可能地域：ほぼ全国。",
+      "花色：赤、紅、ピンク、紫、白、黄。",
+      "根が浅く乾燥に弱いため、乾燥が続く場合は水やりが必要。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      4,
+      5
+    ],
+    "pruningMonths": [
+      5
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "花後すぐに刈り込みで樹形を整える。花後に伸びる新芽の先に翌年の花芽ができる。",
+    "timing": [
+      "花後すぐ",
+      "カレンダーでは5月"
+    ],
+    "methods": [
+      {
+        "name": "刈り込み",
+        "description": "刈り込む前に飛び出した徒長枝を枝元から切る。大きさを保つ場合は新しい枝の付け根付近で刈り込み、大きくする場合は弱く、小さくする場合は強く刈り込む。",
+        "conditions": "常緑性ツツジ。",
+        "diagramId": "evergreen-tsutsuji-shearing-reference"
+      }
+    ],
+    "warnings": [
+      "剪定が遅れると翌年の花芽を切るおそれがある。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 108,
+      "extractionType": "combined",
+      "note": "元画像：Tsutsuji.JPG。ツツジ類共通の基本データとカレンダー、常緑性ツツジの剪定本文・共有図の適用を採録。共有図データはoomurasaki.jsonに保存。月内境界は確定せず月単位のみ採録。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

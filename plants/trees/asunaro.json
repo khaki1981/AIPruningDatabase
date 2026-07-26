@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "asunaro",
+  "groupId": "hiba-rui",
+  "relationships": [],
+  "nameJa": "アスナロ",
+  "scientificName": "",
+  "aliases": [
+    "翌檜"
+  ],
+  "classification": {
+    "category": "針葉樹",
+    "familyJa": "ヒノキ科",
+    "familyScientific": "",
+    "genusJa": "アスナロ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "葉が大きめで光沢があり、生長が遅く樹形が乱れにくい。",
+    "height": "自然状態：5〜25m。庭植え：1.5〜8m。",
+    "spread": "自然状態：3〜15m。庭植え：1〜5m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "生長速度：遅い。",
+      "日当たり：成木は陰樹。",
+      "乾湿：中庸。",
+      "大気汚染：強い。",
+      "萌芽力：強い。",
+      "主な病害虫：赤星病、ハダニ。",
+      "栽培可能地域：ほぼ全国。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [],
+    "pruningMonths": [
+      6,
+      7,
+      10,
+      11
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "最低年2回、6〜7月と10〜11月に整え、新芽が伸びた場合はその都度整える。毎年、爪引きを行う。",
+    "timing": [
+      "6〜7月",
+      "10〜11月",
+      "新芽が伸びた都度",
+      "春に新芽が出そろい、芽がかたくなる前"
+    ],
+    "methods": [
+      {
+        "name": "爪引き",
+        "description": "中心にある最も強い芽を指先でつまんで引き抜く。翌春に先端から新芽が吹いたら、同様に中心の芽を摘み取る。",
+        "conditions": "毎年繰り返して一定の大きさと樹形を維持する。",
+        "diagramId": "asunaro-tsumahiki-reference"
+      },
+      {
+        "name": "葉のある枝先を整える",
+        "description": "葉のついている枝先だけを整える。",
+        "conditions": "",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "ヒバ類はおおむね金属を嫌う傾向があるため、可能な範囲で指先を使って整える。",
+      "2年以上経った葉のない古枝まで深く切ると萌芽しにくく、その枝が元まで枯れることがある。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "難しい"
+  },
+  "diagrams": [
+    {
+      "id": "asunaro-tsumahiki-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "Hiba-2.JPGのアスナロの爪引き図。中心にある最も強い芽を指先でつまみ、引き抜くように摘み取る。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 40,
+      "extractionType": "combined",
+      "note": "元画像：Hiba-1.JPG。ヒバ類共通の基本データ・カレンダー・注意事項と、アスナロ固有の生長速度、日当たり、性質、爪引き本文を採録。"
+    },
+    {
+      "sourceId": "book-001",
+      "page": 41,
+      "extractionType": "combined",
+      "note": "元画像：Hiba-2.JPG。アスナロの爪引き図を採録。ヒノキとサワラの比較図は採録していない。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

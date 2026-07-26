@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "shirakashi",
+  "groupId": "kashi-rui",
+  "relationships": [],
+  "nameJa": "シラカシ",
+  "scientificName": "",
+  "aliases": [],
+  "classification": {
+    "category": "常緑広葉樹・高中木",
+    "familyJa": "ブナ科",
+    "familyScientific": "",
+    "genusJa": "コナラ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "",
+    "height": "自然状態：15〜20m。庭植え：5〜8m。",
+    "spread": "自然状態：8〜15m。庭植え：2〜5m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "関東で庭木としてよく使われる。",
+      "生長速度：やや早い。",
+      "日当たり：陰樹。",
+      "乾湿：中庸。",
+      "大気汚染：強い。",
+      "萌芽力：強い。",
+      "主な病害虫：うどんこ病、すす病、アブラムシ、カイガラムシ、テッポウムシ。",
+      "栽培可能地域：東北南部〜沖縄。",
+      "資料では剪定方法の適用樹種としてスダジイ、マテバシイなどのシイ類も挙げられているが、構造化参照は作成していない。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [],
+    "pruningMonths": [
+      6,
+      10,
+      11
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "年2回、6月頃と10月半ば〜11月半ばに剪定する。年1回の場合は6月に行う。",
+    "timing": [
+      "6月頃",
+      "10月半ば〜11月半ば",
+      "年1回の場合は6月"
+    ],
+    "methods": [
+      {
+        "name": "大透かしと枝先の剪定",
+        "description": "まず大透かしで樹冠内部の枯れ枝、からみ枝、徒長枝などを抜いて全体の樹形を整え、次に枝先を細かく剪定する。",
+        "conditions": "",
+        "diagramId": ""
+      },
+      {
+        "name": "三つ葉透かし",
+        "description": "小透かしの後、枝元に葉を3枚ほど残し、外芽の先で枝先を切り詰める。",
+        "conditions": "よりていねいに仕上げる場合。",
+        "diagramId": "kashi-mitsuba-sukashi-reference"
+      }
+    ],
+    "warnings": [],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "kashi-mitsuba-sukashi-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "Kashi.JPGの「カシ類の剪定（三つ葉透かし）」図。枝元に3葉ほど残し、外芽の先で切る。",
+      "appliesTo": [
+        {
+          "targetType": "plant",
+          "targetId": "shirakashi"
+        },
+        {
+          "targetType": "plant",
+          "targetId": "arakashi"
+        },
+        {
+          "targetType": "plant",
+          "targetId": "ubamegashi"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 52,
+      "extractionType": "combined",
+      "note": "元画像：Kashi.JPG。カシ類共通の基本データ、カレンダー、剪定本文、三つ葉透かし図と、シラカシ固有の地域記述を採録。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "americaiwananten",
+  "groupId": "americaiwananten-seiyouiwananten",
+  "relationships": [],
+  "nameJa": "アメリカイワナンテン",
+  "scientificName": "",
+  "aliases": [
+    "アメリカ岩南天"
+  ],
+  "classification": {
+    "category": "常緑広葉樹・低木",
+    "familyJa": "ツツジ科",
+    "familyScientific": "",
+    "genusJa": "イワナンテン属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "株立ち状になり、枝の先端が垂れ下がる。",
+    "height": "自然状態：1.5〜2.5m。庭植え：0.6〜1m。",
+    "spread": "自然状態：2〜3m。庭植え：0.8〜1.5m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "生長速度：普通。",
+      "日当たり：中庸。",
+      "乾湿：乾燥にやや弱い。",
+      "大気汚染：強い。",
+      "萌芽力：強い。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：北海道以南。",
+      "花色：白。",
+      "北米原産で寒さに強く、病害虫の心配があまりない。",
+      "セイヨウイワナンテンとは性質などがほとんど変わらない。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      5
+    ],
+    "harvestMonths": [],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "pruningMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "小さいうちは剪定せず、大株になったら枯れ枝や古い枝を地際から除いて茎数を減らす。",
+    "timing": [
+      "カレンダーでは3〜4月、5〜6月、9〜10月"
+    ],
+    "methods": [
+      {
+        "name": "枯れ枝と古枝を除く",
+        "description": "枯れ枝や古い枝を地際から除き、茎の数を減らす。からみ枝も切る。",
+        "conditions": "大株になったら行う。",
+        "diagramId": "americaiwananten-pruning-reference"
+      },
+      {
+        "name": "葉または枝の上で切り戻す",
+        "description": "刈り込みにも耐えるが、葉または枝の上から切り戻すと美しい樹形を保てる。",
+        "conditions": "",
+        "diagramId": "americaiwananten-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "小さいうちは剪定不要だが、大きくなるため、大株では剪定が必要になる。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [
+    {
+      "id": "americaiwananten-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "Americaiwananten_seiyouiwananten.JPGに掲載された、アメリカイワナンテンと明記された剪定図。からみ枝を切り、枯れ枝や古い枝を地際から除く。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 61,
+      "extractionType": "combined",
+      "note": "元画像：Americaiwananten_seiyouiwananten.JPG。カレンダー、対象植物が個別に明示されていない基本データ、両種の性質がほとんど同じと記された本文の剪定説明を、同ページの2植物に共通する情報として採録。月内の境界は確定せず月単位のみ採録。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rouyagaki",
+  "groupId": "shisentokiwagaki-rouyagaki",
+  "relationships": [],
+  "nameJa": "ロウヤガキ",
+  "scientificName": "",
+  "aliases": [
+    "老鴉柿",
+    "老爺柿"
+  ],
+  "classification": {
+    "category": "",
+    "familyJa": "カキノキ科",
+    "familyScientific": "",
+    "genusJa": "カキノキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "",
+    "height": "自然状態：4〜5m。庭植え：2〜3m。",
+    "spread": "自然状態：1〜2m。庭植え：0.5〜1m。",
+    "deciduousEvergreen": "落葉",
+    "notes": [
+      "生長速度：早い。",
+      "日当たり：中庸。",
+      "乾湿：中庸。",
+      "大気汚染：強い。",
+      "萌芽力：強い。",
+      "主な病害虫：特になし。",
+      "栽培可能地域：東北南部以南。",
+      "花色：白。",
+      "基本データ欄の果実色：橙。",
+      "シセントキワガキに似た種類。",
+      "本文に記載された果実色は柿色、黄色、赤色、黒色。",
+      "鉢植えでも楽しめる。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      5
+    ],
+    "harvestMonths": [
+      10,
+      11,
+      12
+    ],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "pruningMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "",
+    "timing": [
+      "カレンダーでは3〜4月、5〜6月"
+    ],
+    "methods": [],
+    "warnings": [],
+    "flowerBudType": "unknown",
+    "difficulty": "易しい"
+  },
+  "diagrams": [],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 56,
+      "extractionType": "combined",
+      "note": "元画像：Shisentokiwagaki_rouyagaki.JPG。カレンダーと対象植物が個別に明示されていない基本データは、同ページの2植物に共通する情報として採録。月内の境界は確定せず月単位のみ採録。シセントキワガキと明記された剪定方法と図は転用していない。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

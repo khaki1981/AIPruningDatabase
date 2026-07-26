@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "natsutsubaki",
+  "groupId": "natsutsubaki-himeshara",
+  "relationships": [],
+  "nameJa": "ナツツバキ",
+  "scientificName": "",
+  "aliases": [
+    "夏椿",
+    "シャラノキ"
+  ],
+  "classification": {
+    "category": "夏の花木・高中木",
+    "familyJa": "ツバキ科",
+    "familyScientific": "",
+    "genusJa": "ナツツバキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "自然に樹形が整う落葉樹。",
+    "height": "自然状態：6〜15m。庭植え：3〜5m。",
+    "spread": "自然状態：3〜7m。庭植え：1〜2m。",
+    "deciduousEvergreen": "落葉",
+    "notes": [
+      "生長速度：早い。",
+      "日当たり：中庸。",
+      "乾湿：乾燥に弱い。",
+      "大気汚染：弱い。",
+      "萌芽力：やや弱い。",
+      "主な病害虫：チャドクガ、カイガラムシ。",
+      "栽培可能地域：東北〜沖縄。",
+      "花色：白。",
+      "6月から7月中旬に白い花をつける。新緑、夏の白い花、秋の紅葉、冬の枝振りを楽しめる。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [
+      6,
+      7
+    ],
+    "harvestMonths": [],
+    "flowerBudFormationMonths": [
+      7,
+      8
+    ],
+    "pruningMonths": [
+      1,
+      2,
+      12
+    ],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "自然に姿が整うため、落葉期に徒長枝や込みすぎた枝を間引く程度とする。前年生枝はなるべく残す。",
+    "timing": [
+      "落葉期（カレンダーでは12〜2月）"
+    ],
+    "methods": [
+      {
+        "name": "不要枝を間引く",
+        "description": "徒長枝や込みすぎた枝を、必ず枝元から切る。",
+        "conditions": "落葉期に行う。",
+        "diagramId": "natsutsubaki-pruning-reference"
+      },
+      {
+        "name": "若木のうちに高さを抑える",
+        "description": "大きくしたくない場合は、若木のうちに先端を切り、2番目または3番目の枝に芯を替える。",
+        "conditions": "ナツツバキとヒメシャラに共通する注意として掲載。",
+        "diagramId": ""
+      }
+    ],
+    "warnings": [
+      "前年に出た充実した枝から伸びた新梢の葉腋に花芽がつくため、前年生枝はなるべく残す。",
+      "下枝を切ると、生長に伴って花の位置が高くなり、樹形が不格好になることがある。",
+      "樹形が逆三角形にならないよう、長く伸びた枝を切って整える。",
+      "幹がある程度太くなってから先端を切ると、その部分が枯れ込むことがある。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "普通"
+  },
+  "diagrams": [
+    {
+      "id": "natsutsubaki-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "Natsutsubaki_himesyara.JPGに掲載された、ナツツバキと明記された剪定図。冬は徒長枝や込みすぎた枝を枝元から間引き、春の芽吹き後は逆三角形にならないよう長く伸びた枝を切って整える。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 97,
+      "extractionType": "combined",
+      "note": "元画像：Natsutsubaki_himesyara.JPG。カレンダーと対象植物が個別に明示されていない基本データは、同ページの2植物に共通する情報として採録。本文により開花期は6月〜7月中旬と確認した。花芽分化期と剪定適期は、月内の境界を確定せず月単位のみ採録。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}

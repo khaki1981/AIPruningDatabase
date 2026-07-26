@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "itohiba",
+  "groupId": "hiba-rui",
+  "relationships": [],
+  "nameJa": "イトヒバ",
+  "scientificName": "",
+  "aliases": [
+    "糸檜葉",
+    "ヒヨクヒバ"
+  ],
+  "classification": {
+    "category": "針葉樹",
+    "familyJa": "ヒノキ科",
+    "familyScientific": "",
+    "genusJa": "ヒノキ属",
+    "genusScientific": "",
+    "cultivar": ""
+  },
+  "basicData": {
+    "growthHabit": "葉のない古枝から新芽が出にくい傾向が強い。",
+    "height": "自然状態：5〜25m。庭植え：1.5〜8m。",
+    "spread": "自然状態：3〜15m。庭植え：1〜5m。",
+    "deciduousEvergreen": "常緑",
+    "notes": [
+      "生長速度：早い。",
+      "日当たり：陽樹。",
+      "乾湿：中庸。",
+      "大気汚染：強い。",
+      "萌芽力：強い。",
+      "主な病害虫：赤星病、ハダニ。",
+      "栽培可能地域：ほぼ全国。"
+    ]
+  },
+  "calendar": {
+    "floweringMonths": [],
+    "pruningMonths": [
+      6,
+      7,
+      10,
+      11
+    ],
+    "flowerBudFormationMonths": [],
+    "harvestMonths": [],
+    "plantingMonths": []
+  },
+  "pruning": {
+    "summary": "最低年2回、6〜7月と10〜11月に整え、新芽が伸びた場合はその都度、葉のある枝先を整える。",
+    "timing": [
+      "6〜7月",
+      "10〜11月",
+      "新芽が伸びた都度"
+    ],
+    "methods": [
+      {
+        "name": "飛び出した枝を整える",
+        "description": "飛び出した枝を指先で摘み取るか、葉を切らないように細い裁縫用の糸切りバサミなどで枝だけを切る。",
+        "conditions": "葉のある枝先だけを整える。",
+        "diagramId": "itohiba-pruning-reference"
+      }
+    ],
+    "warnings": [
+      "ヒバ類はおおむね金属を嫌う傾向がある。",
+      "ハサミで葉を切ると、一時的に葉が赤茶色に変色する。",
+      "2年以上経った葉のない古枝まで深く切ると萌芽しにくく、その枝が元まで枯れることがある。"
+    ],
+    "flowerBudType": "unknown",
+    "difficulty": "難しい"
+  },
+  "diagrams": [
+    {
+      "id": "itohiba-pruning-reference",
+      "path": "",
+      "type": "source-diagram-description",
+      "note": "Hiba-2.JPGのイトヒバ専用剪定図。枝先をそろえるときはハサミを使わず、できるだけ手で摘む。"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "book-001",
+      "page": 40,
+      "extractionType": "combined",
+      "note": "元画像：Hiba-1.JPG。ヒバ類共通の基本データ・カレンダー・注意事項、イトヒバの分類表記と別名ヒヨクヒバを採録。園芸品種としての基本種との関係は構造化していない。"
+    },
+    {
+      "sourceId": "book-001",
+      "page": 41,
+      "extractionType": "combined",
+      "note": "元画像：Hiba-2.JPG。チャボヒバとイトヒバの共通剪定本文およびイトヒバ専用図を採録。ヒノキとサワラの比較図は採録していない。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "updatedAt": ""
+}
