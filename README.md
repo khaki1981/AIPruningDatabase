@@ -5,10 +5,11 @@
 ## フォルダ構成
 
 - `plants/`: 分類別の植物JSON
+- `branch-types/`: 植物間で共通利用する忌み枝・切るべき枝のJSON
 - `diagrams/`: 共通図および植物別のSVG図
 - `sources/`: 書籍・論文・Webサイトの出典情報
-- `schema/`: 植物JSON用のJSON Schema
-- `templates/`: 新規植物データ作成用テンプレート
+- `schema/`: 植物JSONと忌み枝JSON用のJSON Schema
+- `templates/`: 新規データ作成用テンプレート
 - `scripts/`: データ検証などの補助スクリプト
 - `docs/`: データベース運用方針と作図ガイドライン
 
@@ -17,6 +18,7 @@
 - データ追加時は、出典とページ番号を必ず残してください。
 - 書籍に書かれていない一般知識を、AIなどで推測して勝手に補わないでください。
 - 写真や書籍の挿絵をそのまま転載せず、伝える意味を整理したうえで独自のSVGとして作図してください。
+- 忌み枝は植物データから分離して共通知識として管理し、植物ごとの適用可否は出典に基づいて別途関連付けてください。
 - 公開候補にする前に `npm run validate` でSchema検証を実行してください。
 
 詳細は [`docs/database-policy.md`](docs/database-policy.md) と [`docs/svg-guidelines.md`](docs/svg-guidelines.md) を参照してください。

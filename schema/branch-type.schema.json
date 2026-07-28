@@ -1,0 +1,289 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/khaki1981/AIPruningDatabase/schema/branch-type.schema.json",
+  "$comment": "Schema version 1.0.0",
+  "title": "AIPruningDatabase reusable branch type data",
+  "description": "植物間で共通利用する、切るべき枝・残す判断を要する枝のSchema v1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "japaneseName",
+    "japaneseAliases",
+    "englishName",
+    "slug",
+    "category",
+    "definition",
+    "characteristics",
+    "whyRemove",
+    "pruningMethod",
+    "pruningPriority",
+    "exceptions",
+    "applicablePlants",
+    "cautions",
+    "imageGuidance",
+    "source",
+    "reviewStatus",
+    "notes"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "$ref": "#/definitions/kebabId"
+    },
+    "japaneseName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "japaneseAliases": {
+      "$ref": "#/definitions/uniqueStringArray"
+    },
+    "englishName": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "slug": {
+      "$ref": "#/definitions/kebabId"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "condition",
+        "origin",
+        "vigor",
+        "direction",
+        "relationship",
+        "arrangement",
+        "author-defined",
+        "other"
+      ]
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "characteristics": {
+      "$ref": "#/definitions/uniqueStringArray"
+    },
+    "whyRemove": {
+      "$ref": "#/definitions/uniqueStringArray"
+    },
+    "pruningMethod": {
+      "$ref": "#/definitions/pruningMethod"
+    },
+    "pruningPriority": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "unknown"]
+    },
+    "exceptions": {
+      "$ref": "#/definitions/uniqueStringArray"
+    },
+    "applicablePlants": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/plantApplicability"
+      }
+    },
+    "cautions": {
+      "$ref": "#/definitions/uniqueStringArray"
+    },
+    "imageGuidance": {
+      "$ref": "#/definitions/imageGuidance"
+    },
+    "source": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/sourceReference"
+      }
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": ["draft", "reviewed", "verified"]
+    },
+    "notes": {
+      "$ref": "#/definitions/uniqueStringArray"
+    }
+  },
+  "definitions": {
+    "kebabId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "uniqueStringArray": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "pruningMethod": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "cutPosition", "steps"],
+      "properties": {
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cutPosition": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "steps": {
+          "$ref": "#/definitions/uniqueStringArray"
+        }
+      }
+    },
+    "plantApplicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["plantId", "japaneseName", "relation", "note"],
+      "properties": {
+        "plantId": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/kebabId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "japaneseName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation": {
+          "type": "string",
+          "enum": ["example", "exception", "condition"]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "imageGuidance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "description",
+        "keyElements",
+        "sourceBasis",
+        "mediaReferences"
+      ],
+      "properties": {
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "keyElements": {
+          "$ref": "#/definitions/uniqueStringArray"
+        },
+        "sourceBasis": {
+          "type": "string",
+          "enum": ["body", "diagram", "photo", "combined", "unknown"]
+        },
+        "mediaReferences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/mediaReference"
+          }
+        }
+      }
+    },
+    "mediaReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "uri", "note"],
+      "properties": {
+        "id": {
+          "$ref": "#/definitions/kebabId"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["illustration", "photo", "video"]
+        },
+        "uri": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceId",
+        "bookTitle",
+        "author",
+        "imageFileName",
+        "page",
+        "extractionTypes",
+        "note"
+      ],
+      "properties": {
+        "sourceId": {
+          "$ref": "#/definitions/kebabId"
+        },
+        "bookTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1
+        },
+        "imageFileName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "extractionTypes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": ["body", "diagram", "photo", "caption"]
+          },
+          "uniqueItems": true
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

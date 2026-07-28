@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "wide-angle-branch",
+  "japaneseName": "広角枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "wide-angle-branch",
+  "category": "author-defined",
+  "definition": "木を真上または真下から見たとき、同じ枝の上下間で水平方向に広がりすぎ、受け持つ範囲が広すぎる枝。",
+  "characteristics": [
+    "筆者の持論では一枝の受け持つ範囲を扇状の60度から100度とし、それより広い配置を問題としている。",
+    "横方向では広角枝、縦方向では立ち枝または下がり枝になり得る。",
+    "放置すると隣の枝へ干渉し、交差枝になる。"
+  ],
+  "whyRemove": [
+    "水平方向へ広がりすぎて美観を損なう。",
+    "隣の枝に干渉し、交差枝になる。"
+  ],
+  "pruningMethod": {
+    "summary": "干渉が起こる前に切除する。例外的に隣枝を引いて空間を塞ぐ用途も示されている。",
+    "cutPosition": null,
+    "steps": [
+      "上または下から枝の受け持つ角度を確認する。",
+      "隣枝へ干渉する前に処理する。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [
+    "生け垣などで枯れ枝による空間を塞ぐため、隣の枝を引っ張る場合がある。"
+  ],
+  "applicablePlants": [],
+  "cautions": [
+    "角度の考え方は筆者の持論として記載されている。",
+    "書籍の理想値は黄金角約137.5度の半分に当たる約68.75度。"
+  ],
+  "imageGuidance": {
+    "description": "幹を中心に上から見た扇形の受け持ち範囲と、それを越えて横へ広がる枝を示す。",
+    "keyElements": [
+      "幹の中心",
+      "扇形の受け持ち範囲",
+      "横方向へ広がりすぎる枝",
+      "隣枝との干渉",
+      "剪定後の範囲"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-6.JPG",
+      "page": 67,
+      "extractionTypes": ["body"],
+      "note": "定義と角度説明の前半。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-7.JPG",
+      "page": 68,
+      "extractionTypes": ["body", "diagram", "photo", "caption"],
+      "note": "説明後半と図解。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": [
+    "※印があり、書籍の注記では筆者が命名した正式名称ではない用語。"
+  ]
+}

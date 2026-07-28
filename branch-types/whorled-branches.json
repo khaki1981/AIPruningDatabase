@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "whorled-branches",
+  "japaneseName": "車枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "whorled-branches",
+  "category": "arrangement",
+  "definition": "同じ位置から複数の枝が車輪のように放射状に出ている状態。",
+  "characteristics": [
+    "一か所から複数の枝が放射状に発生する。",
+    "生育初期の主幹・主枝づくりで整理済みの場合が多く、新たな出現は少ない。",
+    "太い枝や幹から車輪状に発生する場合がある。"
+  ],
+  "whyRemove": [
+    "一か所から出た枝が混む原因になる。",
+    "美観上好ましくない。",
+    "樹形完成後は除去が難しくなる。"
+  ],
+  "pruningMethod": {
+    "summary": "太い枝や幹から車輪状に出た場合は、1〜2本を残して切り取る。",
+    "cutPosition": "同じ発生位置から、残す1〜2本以外を処理する。",
+    "steps": [
+      "同じ位置から放射状に出る枝を早期に確認する。",
+      "残す1〜2本を選ぶ。",
+      "樹形が固まる前に残りを切る。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [],
+  "applicablePlants": [],
+  "cautions": [
+    "樹形ができてからでは除去が難しいため、早めに対処する。"
+  ],
+  "imageGuidance": {
+    "description": "幹または太枝の同一点から車輪のスポーク状に複数枝が放射し、枝が混み合う状態を示す。",
+    "keyElements": [
+      "共通の発生点",
+      "放射状の複数枝",
+      "枝が混み合う部分",
+      "残す1〜2本",
+      "除去する枝"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-illustration.JPG",
+      "page": 63,
+      "extractionTypes": ["diagram", "caption"],
+      "note": "一か所から車輪状に出て、枝が混む原因となり、美観上もよくないという図示内容を補完。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-8.JPG",
+      "page": 69,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

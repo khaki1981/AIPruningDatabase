@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "upright-branch",
+  "japaneseName": "立ち枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "upright-branch",
+  "category": "direction",
+  "definition": "真上に向かって生えている枝。",
+  "characteristics": [
+    "多くの場合は元徒長枝である。",
+    "主枝からほぼ直角に上向きに出る。",
+    "途中で切り詰めても根本的な枝の流れは変わらない。"
+  ],
+  "whyRemove": [
+    "将来的に除去する必要が生じやすい。",
+    "主枝の自然な流れを乱す。",
+    "養分を取られ、枝の先端部分が弱る。"
+  ],
+  "pruningMethod": {
+    "summary": "将来除去する見込みが高いため、つけ根から切る。",
+    "cutPosition": "つけ根。",
+    "steps": [
+      "主枝に対する角度を確認する。",
+      "途中で切り詰めず、つけ根から切る。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [],
+  "applicablePlants": [],
+  "cautions": [],
+  "imageGuidance": {
+    "description": "主枝からほぼ直角に真上へ立ち上がる枝と、その先端側の弱る部分を示す。",
+    "keyElements": [
+      "水平または斜めの主枝",
+      "主枝から直角に近い角度で立つ枝",
+      "立ち枝より先端側の部分",
+      "つけ根の切除位置"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-illustration.JPG",
+      "page": 63,
+      "extractionTypes": ["diagram", "caption"],
+      "note": "真上に立ち上がり、養分を取って先端部分を弱らせるという図示内容を補完。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-4.JPG",
+      "page": 65,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

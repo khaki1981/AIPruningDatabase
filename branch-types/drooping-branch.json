@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "drooping-branch",
+  "japaneseName": "下がり枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "drooping-branch",
+  "category": "direction",
+  "definition": "下向きに生えている枝。",
+  "characteristics": [
+    "枝先が下方へ向く。",
+    "だらしない印象に見える場合がある。"
+  ],
+  "whyRemove": [
+    "見方によってはだらしなく見え、美観を損なう。"
+  ],
+  "pruningMethod": {
+    "summary": "必ず除去する枝ではなく、樹形の意図と好みに応じて判断する。",
+    "cutPosition": null,
+    "steps": [
+      "古木らしい風情として生かせるか確認する。",
+      "不要と判断した場合に処理する。"
+    ]
+  },
+  "pruningPriority": "low",
+  "exceptions": [
+    "見方を変えると古木を思わせる風情になるため、必ず取る必要はない。"
+  ],
+  "applicablePlants": [],
+  "cautions": [
+    "好みと樹形の意図を無視して一律に切らない。"
+  ],
+  "imageGuidance": {
+    "description": "主枝や側枝から下方へ伸びる枝を示し、本文にある残した場合の古木らしい印象と併せて判断できる構図にする。",
+    "keyElements": [
+      "下向きの枝先",
+      "周囲の枝の流れ",
+      "残す場合の古木らしい輪郭"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-illustration.JPG",
+      "page": 63,
+      "extractionTypes": ["diagram", "caption"],
+      "note": "下方に伸び、美観上好ましくない枝として図示されていることを補完。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-4.JPG",
+      "page": 65,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

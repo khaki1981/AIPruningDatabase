@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "inner-canopy-branch",
+  "japaneseName": "ふところ枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "inner-canopy-branch",
+  "category": "arrangement",
+  "definition": "枝の内部から出てくる小枝。",
+  "characteristics": [
+    "樹冠や枝組みの内側にある。",
+    "木が成長するにつれて枯れてなくなる場合がある。",
+    "早めに利用すると切り戻し剪定に使える。"
+  ],
+  "whyRemove": [
+    "透かし剪定では取り除かれることが多い。"
+  ],
+  "pruningMethod": {
+    "summary": "一律に切り捨てず、枝数と将来の切り戻し利用を考えて残すか判断する。",
+    "cutPosition": null,
+    "steps": [
+      "全体の枝数を確認する。",
+      "将来の切り戻しに使える位置かを確認する。",
+      "不要な場合だけ処理する。"
+    ]
+  },
+  "pruningPriority": "low",
+  "exceptions": [
+    "全体の枝数が少ない木では無理に切らなくてよい。",
+    "茂った木でも切り戻しの際に利用できる。"
+  ],
+  "applicablePlants": [],
+  "cautions": [
+    "透かし剪定のために機械的に全て切り捨てない。"
+  ],
+  "imageGuidance": {
+    "description": "樹冠内部の主枝近くにある短い小枝と、外側の枝を切り戻す際の利用位置を示す。",
+    "keyElements": [
+      "樹冠の内側",
+      "主枝近くの小枝",
+      "外側の長い枝",
+      "切り戻し先として使う位置"
+    ],
+    "sourceBasis": "body",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-8.JPG",
+      "page": 69,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

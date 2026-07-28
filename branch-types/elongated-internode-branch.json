@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "elongated-internode-branch",
+  "japaneseName": "間延び枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "elongated-internode-branch",
+  "category": "author-defined",
+  "definition": "枝分かれから次の枝分かれまでの距離が長く、枝の途中が間延びした状態。",
+  "characteristics": [
+    "本来は一定の距離ごとに分岐する枝で、次の分岐までが長い。",
+    "内部へ光が入らず途中の小枝が枯れ落ちた場合や、人為的に途中枝を切った場合に生じる。",
+    "越境枝が間延び枝になることも多い。"
+  ],
+  "whyRemove": [
+    "自然な枝の流れと異なる揺れ方をする。",
+    "自然樹形の美観を損なう。"
+  ],
+  "pruningMethod": {
+    "summary": "普段から作らないよう管理し、周辺によい枝ができたら間延び枝を除去する。",
+    "cutPosition": null,
+    "steps": [
+      "枝分かれ間の距離が不自然に長い箇所を確認する。",
+      "周辺に代替できるよい枝があるか確認する。",
+      "代替枝ができたら間延び枝を除去する。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [],
+  "applicablePlants": [],
+  "cautions": [
+    "自然な樹形を保つには日常的な細かな管理が必要。"
+  ],
+  "imageGuidance": {
+    "description": "通常の短い分岐間隔と、次の分岐まで長く枝だけが続く間延びした部分を対比する。",
+    "keyElements": [
+      "通常の枝分かれ間隔",
+      "長く空いた分岐間",
+      "途中枝がない区間",
+      "周辺の代替枝"
+    ],
+    "sourceBasis": "body",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-9.JPG",
+      "page": 70,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": [
+    "※印があり、書籍の注記では筆者が命名した正式名称ではない用語。"
+  ]
+}

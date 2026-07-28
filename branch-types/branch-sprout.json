@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "branch-sprout",
+  "japaneseName": "枝吹き枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "branch-sprout",
+  "category": "author-defined",
+  "definition": "太くなった主枝の途中から出てくる、徒長枝状の枝。",
+  "characteristics": [
+    "太い主枝の途中から発生する。",
+    "モチノキやシラカシなどで見られると記載されている。",
+    "放置すると立派な立ち枝になる。"
+  ],
+  "whyRemove": [
+    "放置すると立ち枝となり、枝の流れを乱す。"
+  ],
+  "pruningMethod": {
+    "summary": "書籍画像で切る位置の詳細は確認できないため、状態を見て処理する。",
+    "cutPosition": null,
+    "steps": []
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [],
+  "applicablePlants": [
+    {
+      "plantId": null,
+      "japaneseName": "モチノキ",
+      "relation": "example",
+      "note": "枝吹き枝がよく見られる例。"
+    },
+    {
+      "plantId": null,
+      "japaneseName": "シラカシ",
+      "relation": "example",
+      "note": "枝吹き枝がよく見られる例。"
+    }
+  ],
+  "cautions": [
+    "剪定方法の具体的な記述は対象画像から確認できない。"
+  ],
+  "imageGuidance": {
+    "description": "太くなった主枝の中途から上向きに伸びる徒長枝状の枝を示す。",
+    "keyElements": [
+      "太い主枝",
+      "主枝の途中から出る新しい枝",
+      "立ち枝へ移行する上向きの形"
+    ],
+    "sourceBasis": "body",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-3.JPG",
+      "page": 64,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": [
+    "※印があり、書籍の注記では筆者が命名した正式名称ではない用語。"
+  ]
+}

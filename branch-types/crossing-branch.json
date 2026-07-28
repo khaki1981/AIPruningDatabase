@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "crossing-branch",
+  "japaneseName": "交差枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "crossing-branch",
+  "category": "relationship",
+  "definition": "枝同士が交差している状態の枝。",
+  "characteristics": [
+    "二本の枝が互いの進路を横切る。",
+    "太くなると枝同士が癒着する場合がある。"
+  ],
+  "whyRemove": [
+    "枝同士が絡んだり接触したりして傷つく場合がある。",
+    "太くなって癒着すると両方を切らなければならない事態になり得る。"
+  ],
+  "pruningMethod": {
+    "summary": "通常は一方を残してもう一方をつけ根から間引く。将来の生長を見据えて残す枝を選ぶ。",
+    "cutPosition": "除去する枝のつけ根。",
+    "steps": [
+      "内向枝や越境枝が原因になっていないか確認する。",
+      "残した枝が将来どう生長するかを考える。",
+      "不要な一方をつけ根から間引く。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [
+    "生け垣などで、枯れ枝が生じて空いた部分を塞ぐため隣の枝を引っ張る必要がある場合がある。"
+  ],
+  "applicablePlants": [
+    {
+      "plantId": null,
+      "japaneseName": "ジューンベリー",
+      "relation": "condition",
+      "note": "株立ちでは幹同士の絡みや接触に注意する例。"
+    },
+    {
+      "plantId": null,
+      "japaneseName": "トサミズキ",
+      "relation": "condition",
+      "note": "株立ちでは幹同士の絡みや接触に注意する例。"
+    },
+    {
+      "plantId": null,
+      "japaneseName": "オガタマノキ",
+      "relation": "example",
+      "note": "掲載写真の交差枝の樹種。"
+    }
+  ],
+  "cautions": [
+    "細い方、新しい方という理由だけで機械的に切らない。",
+    "株立ちでは枝だけでなく幹同士の交差にも注意する。"
+  ],
+  "imageGuidance": {
+    "description": "二本の枝が交差し、一方をつけ根から間引く判断点と、接触部の傷を示す。",
+    "keyElements": [
+      "交差する二本の枝",
+      "接触部",
+      "残す枝と除去する枝",
+      "つけ根の切除位置"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-6.JPG",
+      "page": 67,
+      "extractionTypes": ["body", "photo", "caption"],
+      "note": "書籍では「交差枝、絡み枝」を同一番号で併記。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": [
+    "絡み枝とは同一見出しだが、同義語とは断定せず別IDにした。"
+  ]
+}

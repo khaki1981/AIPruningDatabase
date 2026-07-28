@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "dead-branch",
+  "japaneseName": "枯れ枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "dead-branch",
+  "category": "condition",
+  "definition": "枯れて生きていない枝。自然に枯れ込みが止まった枝と、剪定後に芽が吹かなかった部分など人為的に生じた枝がある。",
+  "characteristics": [
+    "不要になった枝では、木自身が内部への枯れ込みを止めているため、手で払うと折れることがある。",
+    "寸胴切りした箇所から芽が吹かなかった枝や、中途半端に残した枝元まで枯れた枝は硬く残ることがある。"
+  ],
+  "whyRemove": [
+    "木にも人にも確実に不要で、美観を左右する。",
+    "人為的に生じた枯れ枝は腐朽菌の侵入を受けていることがある。"
+  ],
+  "pruningMethod": {
+    "summary": "自然に止まった枯れ込みは手で払える場合がある。人為的な枯れ枝は硬いことがあるため、状態を見て切除する。",
+    "cutPosition": "枯れ込みが止まっている位置、または健全部との境界を確認して処理する。",
+    "steps": [
+      "手で軽く払って自然に折れるか確認する。",
+      "折れない硬い枯れ枝は無理に折らず、適切な道具で切除する。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [],
+  "applicablePlants": [],
+  "cautions": [
+    "人為的な枯れ枝は硬く、手で折れるまで時間がかかる場合がある。"
+  ],
+  "imageGuidance": {
+    "description": "自然に枯れ込みが止まった枝と、切り残しから硬く枯れた枝を対比して示す。",
+    "keyElements": [
+      "枯れた枝先",
+      "健全部と枯死部の境界",
+      "剪定後に残った枝元"
+    ],
+    "sourceBasis": "body",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-1.JPG",
+      "page": 61,
+      "extractionTypes": ["body"],
+      "note": "見出しと説明前半。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-2.JPG",
+      "page": 62,
+      "extractionTypes": ["body"],
+      "note": "説明後半。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "inward-branch",
+  "japaneseName": "内向枝",
+  "japaneseAliases": ["逆さ枝", "返り枝"],
+  "englishName": null,
+  "slug": "inward-branch",
+  "category": "direction",
+  "definition": "幹の内側へ向かって伸びた枝。",
+  "characteristics": [
+    "幹側へ向かって伸びる。",
+    "放置すると幹の反対側まで進み、輪郭を形成する場合がある。"
+  ],
+  "whyRemove": [
+    "美観を損ねる。",
+    "他の枝の生長を妨げる。"
+  ],
+  "pruningMethod": {
+    "summary": "枝が細いうちに枝元から切り取る。",
+    "cutPosition": "枝元。",
+    "steps": [
+      "幹の内側へ向かう枝を確認する。",
+      "細いうちに枝元から切除する。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [
+    "不用意に落とすと、樹種によっては枝の奥行きや木らしさが失われるため注意する。"
+  ],
+  "applicablePlants": [],
+  "cautions": [
+    "太くなってから切ると木を傷めたり、一挙に葉がなくなって表面に大穴が開いたように見えたりする。",
+    "定型的に一律切除しない。"
+  ],
+  "imageGuidance": {
+    "description": "樹冠外側ではなく幹の内側へ戻る枝と、反対側へ越えて伸びた状態を示す。",
+    "keyElements": [
+      "幹",
+      "幹側へ曲がる枝",
+      "反対側まで進んだ枝",
+      "細いうちの枝元切除"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-4.JPG",
+      "page": 65,
+      "extractionTypes": ["body"],
+      "note": "説明前半。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-5.JPG",
+      "page": 66,
+      "extractionTypes": ["body", "diagram"],
+      "note": "説明末尾と越境枝との比較図。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

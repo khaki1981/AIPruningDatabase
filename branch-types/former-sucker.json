@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "former-sucker",
+  "japaneseName": "元ひこばえ",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "former-sucker",
+  "category": "author-defined",
+  "definition": "株元に残され、成長したひこばえ。",
+  "characteristics": [
+    "株元のひこばえが切られずに残っている。",
+    "更新のために意図的に残された可能性と、切り忘れの可能性がある。"
+  ],
+  "whyRemove": [
+    "切り忘れであれば株元の整理対象になる。"
+  ],
+  "pruningMethod": {
+    "summary": "残された意図を確認してから、切除するか更新枝として残すか判断する。",
+    "cutPosition": null,
+    "steps": [
+      "更新目的で残した枝か、切り忘れかを確認する。",
+      "複数人で管理する場合は残す意図を共有する。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [
+    "株を更新するために意図的に残している場合がある。"
+  ],
+  "applicablePlants": [],
+  "cautions": [
+    "意図を確認せずに切除しない。"
+  ],
+  "imageGuidance": {
+    "description": "株元から出たひこばえが成長して幹状になった状態を示す。",
+    "keyElements": [
+      "株元",
+      "親木の脇で成長した元ひこばえ",
+      "更新枝として残した可能性"
+    ],
+    "sourceBasis": "body",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-2.JPG",
+      "page": 62,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": [
+    "※印があり、書籍の注記では筆者が命名した正式名称ではない用語。"
+  ]
+}

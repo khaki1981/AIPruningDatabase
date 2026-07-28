@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "replace-with-branch-type-id",
+  "japaneseName": "名称",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "replace-with-branch-type-id",
+  "category": "other",
+  "definition": "出典に基づく定義",
+  "characteristics": [],
+  "whyRemove": [],
+  "pruningMethod": {
+    "summary": "出典に基づく剪定方法。不明な場合はその旨を記録する。",
+    "cutPosition": null,
+    "steps": []
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [],
+  "applicablePlants": [],
+  "cautions": [],
+  "imageGuidance": {
+    "description": "将来の図解で示す内容",
+    "keyElements": [],
+    "sourceBasis": "unknown",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-000",
+      "bookTitle": "書籍名",
+      "author": "著者名",
+      "imageFileName": "元画像ファイル名",
+      "page": null,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

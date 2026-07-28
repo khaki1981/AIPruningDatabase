@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "three-forked-branch",
+  "japaneseName": "三つ叉枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "three-forked-branch",
+  "category": "arrangement",
+  "definition": "一つの枝分かれで三方向へ分岐している枝。",
+  "characteristics": [
+    "二叉より多い三本の枝へ分かれる。",
+    "三つ叉以上は広角枝となり、美観を損なう可能性が高い。"
+  ],
+  "whyRemove": [
+    "広角枝となって美観を損なう可能性が高い。"
+  ],
+  "pruningMethod": {
+    "summary": "太くなる前に枝分かれを吟味し、多くの場合は中央枝ではなく左右どちらかを抜いて二叉へ整理する。",
+    "cutPosition": "選んだ枝の分岐元。",
+    "steps": [
+      "三本の将来の流れを確認する。",
+      "中央を機械的に抜かず、自然に収まる枝を選ぶ。",
+      "不要な一本を処理して二叉へ整理する。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [
+    "全ての枝分かれを二叉にする必要はない。"
+  ],
+  "applicablePlants": [],
+  "cautions": [
+    "中央枝を必ず抜くという方法は書籍では推奨されていない。"
+  ],
+  "imageGuidance": {
+    "description": "一つの分岐点から三本へ分かれ、中央枝ではなく左右の一方を抜いて自然な二叉にする例を示す。",
+    "keyElements": [
+      "三本の分岐",
+      "中央枝",
+      "左右の枝",
+      "自然な二叉に整理した後"
+    ],
+    "sourceBasis": "body",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-9.JPG",
+      "page": 70,
+      "extractionTypes": ["body"],
+      "note": "書籍では「三つ叉枝、四つ叉枝」を同一番号で併記。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": [
+    "四つ叉枝とは同一見出しだが、分岐数が異なるため別IDにした。"
+  ]
+}

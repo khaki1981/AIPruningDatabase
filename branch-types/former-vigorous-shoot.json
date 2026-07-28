@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "former-vigorous-shoot",
+  "japaneseName": "元徒長枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "former-vigorous-shoot",
+  "category": "author-defined",
+  "definition": "発生直後は徒長枝だったが、時間が経過して枝分かれした枝。",
+  "characteristics": [
+    "若い徒長枝と違い、時間経過により枝分かれして見分けにくい。",
+    "枝肌が滑らかで色が薄く、性質がまっすぐな立ち性である。",
+    "他の枝より成長が早く、先端に輪郭からはみ出す部分が見られる。"
+  ],
+  "whyRemove": [
+    "元の徒長性により枝の流れから突出することがある。"
+  ],
+  "pruningMethod": {
+    "summary": "枝肌・色・立ち性・成長の速さを手掛かりに見分けて処理する。",
+    "cutPosition": null,
+    "steps": [
+      "枝肌と色を確認する。",
+      "立ち性と先端の突出を確認する。",
+      "元徒長枝と判断してから処理する。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [],
+  "applicablePlants": [],
+  "cautions": [
+    "時間が経つと枝分かれして見分けにくい。"
+  ],
+  "imageGuidance": {
+    "description": "枝分かれした後も、滑らかで薄い色の枝肌と直線的な立ち性が残る枝を示す。",
+    "keyElements": [
+      "滑らかな枝肌",
+      "周囲より薄い枝色",
+      "まっすぐな立ち性",
+      "樹冠からはみ出す先端"
+    ],
+    "sourceBasis": "body",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-4.JPG",
+      "page": 65,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": [
+    "※印があり、書籍の注記では筆者が命名した正式名称ではない用語。"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "four-forked-branch",
+  "japaneseName": "四つ叉枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "four-forked-branch",
+  "category": "arrangement",
+  "definition": "一つの枝分かれで四方向へ分岐している枝。",
+  "characteristics": [
+    "二叉より多い四本の枝へ分かれる。",
+    "三つ叉以上は広角枝となり、美観を損なう可能性が高い。"
+  ],
+  "whyRemove": [
+    "広角枝となって美観を損なう可能性が高い。"
+  ],
+  "pruningMethod": {
+    "summary": "太くなる前に枝分かれを吟味し、自然な枝の流れになるよう本数を整理する。",
+    "cutPosition": "選んだ枝の分岐元。",
+    "steps": [
+      "四本の将来の流れを確認する。",
+      "自然に収まる枝を残す。",
+      "不要な枝を分岐元で処理する。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [
+    "全ての枝分かれを二叉にする必要はない。"
+  ],
+  "applicablePlants": [],
+  "cautions": [
+    "三つ叉を二叉にする際の中央枝を抜く定型処理を、そのまま四つ叉へ当てはめない。"
+  ],
+  "imageGuidance": {
+    "description": "一つの分岐点から四本へ分かれ、将来の枝の流れを見て本数を整理する状態を示す。",
+    "keyElements": [
+      "四本の分岐",
+      "分岐元",
+      "残す枝",
+      "整理後の自然な枝の流れ"
+    ],
+    "sourceBasis": "body",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-9.JPG",
+      "page": 70,
+      "extractionTypes": ["body"],
+      "note": "書籍では「三つ叉枝、四つ叉枝」を同一番号で併記。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": [
+    "三つ叉枝とは同一見出しだが、分岐数が異なるため別IDにした。"
+  ]
+}

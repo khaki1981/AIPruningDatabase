@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "vigorous-shoot",
+  "japaneseName": "徒長枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "vigorous-shoot",
+  "category": "vigor",
+  "definition": "他の枝より生長が早い新しい枝で、勢いよくまっすぐに伸びる枝。",
+  "characteristics": [
+    "幹や枝から勢いよく伸びる。",
+    "勢いよくまっすぐ伸びる。",
+    "枝を速く伸ばし、大きな葉をつける。",
+    "樹種によって不要な場合と重要な場合がある。"
+  ],
+  "whyRemove": [
+    "不要な樹種では、枝の流れや樹形を乱すことがある。",
+    "放置すると養分が取られ、大切な枝を枯らすことがある。"
+  ],
+  "pruningMethod": {
+    "summary": "不要な場合は根元から切除する。発生数が多く樹勢が弱い場合は、先端を約3分の1切り詰め、後に脇枝まで切り戻して枝数を増やす方法が示されている。",
+    "cutPosition": "通常の除去は根元。樹勢が弱く多数発生した場合は先端約3分の1を切り詰め、脇枝発生後にそこまで切り戻す。",
+    "steps": [
+      "樹種と樹勢を確認し、残すか除去するかを判断する。",
+      "不要な場合は根元から切除する。",
+      "樹勢が弱く多数発生した場合は段階的に切り詰めて枝数を増やす。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [
+    "ユキヤナギやオウバイでは、徒長枝状の枝を生かすとその木らしくなる。",
+    "サルスベリ、アジサイ、バラなどでは徒長枝によい花が咲くため大事にする。",
+    "ウメなどで全て除去すると樹勢が弱る場合がある。"
+  ],
+  "applicablePlants": [
+    {
+      "plantId": null,
+      "japaneseName": "ユキヤナギ",
+      "relation": "exception",
+      "note": "徒長枝状の枝を生かす例。"
+    },
+    {
+      "plantId": null,
+      "japaneseName": "オウバイ",
+      "relation": "exception",
+      "note": "徒長枝状の枝を生かす例。"
+    },
+    {
+      "plantId": "sarusuberi",
+      "japaneseName": "サルスベリ",
+      "relation": "exception",
+      "note": "徒長枝によい花が咲く例。"
+    },
+    {
+      "plantId": "hydrangea",
+      "japaneseName": "アジサイ",
+      "relation": "exception",
+      "note": "徒長枝によい花が咲く例。"
+    },
+    {
+      "plantId": null,
+      "japaneseName": "バラ",
+      "relation": "exception",
+      "note": "徒長枝によい花が咲く例。"
+    },
+    {
+      "plantId": "ume",
+      "japaneseName": "ウメ",
+      "relation": "condition",
+      "note": "全て除去すると樹勢が弱る例。"
+    }
+  ],
+  "cautions": [
+    "徒長枝だからという理由だけで全て除去しない。",
+    "全体の枝数や樹勢を考慮する。"
+  ],
+  "imageGuidance": {
+    "description": "幹や枝から周囲より長く勢いよく伸びる新枝と、養分を取られて弱る周辺枝との位置関係を示す。",
+    "keyElements": [
+      "周囲より速く長く伸びた枝",
+      "直線的な伸び",
+      "大きな葉",
+      "周辺の大切な枝との位置関係",
+      "根元から切る場合と段階的に切り詰める場合"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-illustration.JPG",
+      "page": 63,
+      "extractionTypes": ["diagram", "caption"],
+      "note": "幹や枝から勢いよく伸び、放置すると養分を取り、大切な枝を枯らして樹形を乱すという図示内容を補完。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-3.JPG",
+      "page": 64,
+      "extractionTypes": ["body"],
+      "note": "説明前半。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-4.JPG",
+      "page": 65,
+      "extractionTypes": ["body"],
+      "note": "説明末尾。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

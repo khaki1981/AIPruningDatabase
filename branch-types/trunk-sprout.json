@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "trunk-sprout",
+  "japaneseName": "胴吹き枝",
+  "japaneseAliases": ["幹吹き"],
+  "englishName": null,
+  "slug": "trunk-sprout",
+  "category": "origin",
+  "definition": "幹から直接生えてくる細い枝。",
+  "characteristics": [
+    "63ページの図では、幹から直接生えた細い枝として示されている。",
+    "木の大きさに対して枝葉が足りない場合や、木が弱っている場合に発生しやすいと説明されている。"
+  ],
+  "whyRemove": [
+    "美観上好ましくない場合がある。"
+  ],
+  "pruningMethod": {
+    "summary": "通常はつけ根から切り取るが、樹勢回復や枝の更新に使う場合は残す。",
+    "cutPosition": "除去する場合はつけ根。",
+    "steps": [
+      "木が弱っている兆候かを確認する。",
+      "主要枝が枯れそうな場合は、切り替えに使える枝を早めに選ぶ。",
+      "不要と判断した枝はつけ根から切る。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [
+    "木が弱っているサインとして出た場合は、樹勢回復の対策を講じる。",
+    "主要な枝が枯れそうな場合は、胴吹き枝を残して切り替える準備に使う。"
+  ],
+  "applicablePlants": [],
+  "cautions": [],
+  "imageGuidance": {
+    "description": "太い幹の表面から直接出る細い若枝を示す。",
+    "keyElements": [
+      "主幹",
+      "幹から直接出る細枝",
+      "通常の枝分かれとの違い"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-2.JPG",
+      "page": 62,
+      "extractionTypes": ["body"],
+      "note": "説明前半。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-illustration.JPG",
+      "page": 63,
+      "extractionTypes": ["diagram", "caption"],
+      "note": "幹から直接生えた細い枝として図示されていることを補完。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-3.JPG",
+      "page": 64,
+      "extractionTypes": ["body"],
+      "note": "説明末尾。"
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

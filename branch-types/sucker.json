@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "sucker",
+  "japaneseName": "ひこばえ",
+  "japaneseAliases": ["やご"],
+  "englishName": null,
+  "slug": "sucker",
+  "category": "origin",
+  "definition": "木の株元から出てくる、徒長枝のような枝。",
+  "characteristics": [
+    "株元から発生する。",
+    "63ページの図では、地際から伸びた枝として示されている。",
+    "親木が弱ると、次世代を準備するために出ることがあると説明されている。"
+  ],
+  "whyRemove": [
+    "通常は不要枝として扱い、株元の樹形を整理する。",
+    "放置すると必要以上の養分を要求し、幹の生育に影響する。"
+  ],
+  "pruningMethod": {
+    "summary": "通常は見つけ次第つけ根から切り取る。更新に利用する場合は本数を絞って残す。",
+    "cutPosition": "株元のつけ根。",
+    "steps": [
+      "親木と全体の状態を観察する。",
+      "除去する枝はつけ根から切る。",
+      "更新に使う場合も多数を残さず、残す枝を絞る。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [
+    "株立ち状の木で、大きくなりすぎた主幹を若い幹へ更新する際に利用する場合がある。",
+    "親木が弱っている徴候として出た場合は、除去だけでなく全体の様子を観察する。"
+  ],
+  "applicablePlants": [],
+  "cautions": [
+    "更新目的でも多数を残さない。"
+  ],
+  "imageGuidance": {
+    "description": "地際の株元から伸びる枝と、養分を要求されて生育へ影響を受ける幹との位置関係を示す。",
+    "keyElements": [
+      "株元",
+      "主幹とは別に地際から伸びる若い枝",
+      "ひこばえと幹の位置関係",
+      "残す枝と切る枝の区別"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-illustration.JPG",
+      "page": 63,
+      "extractionTypes": ["diagram", "caption"],
+      "note": "地際から伸び、放置すると必要以上の養分を要求して幹の生育に影響するという図示内容を補完。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-2.JPG",
+      "page": 62,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}

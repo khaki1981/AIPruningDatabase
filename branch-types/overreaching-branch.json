@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "overreaching-branch",
+  "japaneseName": "越境枝",
+  "japaneseAliases": [],
+  "englishName": null,
+  "slug": "overreaching-branch",
+  "category": "author-defined",
+  "definition": "本来その枝が受け持つべき領域を超え、抜け出して他の枝の領域を侵害する枝。",
+  "characteristics": [
+    "担当する範囲から外へ伸びる。",
+    "他の枝の領域へ入り込む。",
+    "63ページの図では、他の枝の領域に侵入した枝として示されている。",
+    "内向枝や広角枝を放置した結果として生じる場合がある。"
+  ],
+  "whyRemove": [
+    "他の枝の領域を侵害し、枝の配置を乱す。"
+  ],
+  "pruningMethod": {
+    "summary": "越境する前の元となる枝を早めに見つけ、領域を侵害しない位置で処理する。",
+    "cutPosition": null,
+    "steps": [
+      "各枝が受け持つ範囲を確認する。",
+      "範囲を越えて隣の枝へ入り込む枝を見つける。",
+      "越境が進む前に処理する。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [],
+  "applicablePlants": [],
+  "cautions": [
+    "書籍本文で具体的な切断位置は示されていない。"
+  ],
+  "imageGuidance": {
+    "description": "枝ごとの受け持ち領域を示し、一方の枝がその境界を越えて隣の領域へ伸びる状態を描く。",
+    "keyElements": [
+      "隣り合う枝",
+      "枝ごとの領域境界",
+      "境界を越える枝",
+      "内向枝との位置関係"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-illustration.JPG",
+      "page": 63,
+      "extractionTypes": ["diagram", "caption"],
+      "note": "他の枝の領域に侵入した枝として図示されていることを補完。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-5.JPG",
+      "page": 66,
+      "extractionTypes": ["body", "diagram"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": [
+    "※印があり、書籍の注記では筆者が命名した正式名称ではない用語。"
+  ]
+}

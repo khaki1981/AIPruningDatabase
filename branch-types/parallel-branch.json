@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "parallel-branch",
+  "japaneseName": "平行枝",
+  "japaneseAliases": ["並行枝"],
+  "englishName": null,
+  "slug": "parallel-branch",
+  "category": "relationship",
+  "definition": "上下または左右で隣り合う枝が、平行に伸びている状態。",
+  "characteristics": [
+    "主枝や側枝に対して平行に伸びる。",
+    "上下の平行枝では、将来下側の枝の生長が妨げられる。"
+  ],
+  "whyRemove": [
+    "下側または隣の枝の生長を妨げる。",
+    "目が止まりやすく、美観上の違和感を生む。"
+  ],
+  "pruningMethod": {
+    "summary": "どちらか一方を残し、もう一方を枝元から切り取る。",
+    "cutPosition": "除去する枝の枝元。",
+    "steps": [
+      "平行する二本の枝を確認する。",
+      "残す一方を選ぶ。",
+      "もう一方を枝元から切る。"
+    ]
+  },
+  "pruningPriority": "unknown",
+  "exceptions": [],
+  "applicablePlants": [],
+  "cautions": [
+    "書籍画像では残す枝を選ぶ具体的基準は示されていない。"
+  ],
+  "imageGuidance": {
+    "description": "主枝や側枝に対して平行に伸び、美観上不釣り合いになる枝を示す。",
+    "keyElements": [
+      "平行な二本の枝",
+      "主枝または側枝",
+      "上下または左右の位置関係",
+      "残す枝",
+      "枝元から除去する枝"
+    ],
+    "sourceBasis": "combined",
+    "mediaReferences": []
+  },
+  "source": [
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-illustration.JPG",
+      "page": 63,
+      "extractionTypes": ["diagram", "caption"],
+      "note": "主枝や側枝に平行に伸び、美観上不釣り合いになるという図示内容を補完。"
+    },
+    {
+      "sourceId": "book-002",
+      "bookTitle": "剪定「コツ」の教科書",
+      "author": "木下透",
+      "imageFileName": "Imieda-8.JPG",
+      "page": 69,
+      "extractionTypes": ["body"],
+      "note": ""
+    }
+  ],
+  "reviewStatus": "draft",
+  "notes": []
+}
